@@ -35,7 +35,7 @@ const Navbar = () => {
               transition={{ duration: 0.6 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
-                Features
+                Home
               </li>
             </motion.a>
             <motion.a
@@ -45,7 +45,7 @@ const Navbar = () => {
               transition={{ duration: 0.7 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
-                Why Us
+                About Us
               </li>
             </motion.a>
             <motion.a
@@ -55,7 +55,7 @@ const Navbar = () => {
               transition={{ duration: 0.8 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
-                Pricing
+                Our Services
               </li>
             </motion.a>
             <motion.a
@@ -65,7 +65,7 @@ const Navbar = () => {
               transition={{ duration: 0.9 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
-                Companies
+                Solutions
               </li>
             </motion.a>
             <motion.a
@@ -75,7 +75,7 @@ const Navbar = () => {
               transition={{ duration: 1 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
-                Contact
+                Contact Us
               </li>
             </motion.a>
           </ul>
@@ -108,28 +108,28 @@ const Navbar = () => {
           <ul>
             <a href="#features">
               <li className="text-2xl pt-10 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                Features
+                Home
               </li>
             </a>
 
             <a href="#whyus">
               <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                Why Us
+                About Us
               </li>
             </a>
             <a href="#pricing">
               <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                Pricing
+                Our Services
               </li>
             </a>
             <a href="#companies">
               <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                Companies
+                Solutions
               </li>
             </a>
             <a href="#footer">
               <li className="text-2xl pt-5 pb-10 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                Contact
+                Contact Us
               </li>
             </a>
           </ul>

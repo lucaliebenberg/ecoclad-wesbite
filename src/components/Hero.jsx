@@ -23,10 +23,19 @@ const Hero = () => {
             initial={{ x: "-200px" }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
-            className="text-[38px] max-w-[220px] lg:max-w-[508px] text-white font-bold text-left leading-tight mb-8 lg:text-[52px]"
+            className="text-[40px]  lg:max-w-[508px] text-white font-bold text-left leading-tight mb-8 lg:text-[52px]"
           >
-            We help you to grow your business to the next level
+            Roofing Solutions
           </motion.h1>
+          <motion.p
+            initial={{ x: "-200px" }}
+            animate={{ x: 0 }}
+            transition={{ duration: 1 }}
+            className="text-[18px] max-w-[360px] lg:max-w-[508px] text-white font-regular text-left leading-tight mb-8 lg:text-[52px]"
+          >
+            High Quality, Eco-Friendly Roofing, Cladding & Insulation Solutions
+            To The Industrial, Commercial & Domestic Markets
+          </motion.p>
           <div className="flex flex-row">
             <div className="hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
               <motion.button
@@ -45,7 +54,7 @@ const Hero = () => {
                 transition={{ duration: 0.5 }}
                 className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#56AC8B] lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:hover:scale-105"
               >
-                <a href="#pricing">Get Started</a>
+                <a href="#pricing">Contact Now</a>
               </motion.button>
             </div>
           </div>
