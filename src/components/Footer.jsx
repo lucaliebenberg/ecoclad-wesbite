@@ -4,31 +4,43 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 
+import Onesheet from "../assets/logo.svg";
+
 const Footer = () => {
   return (
     <div id="footer" className="w-full h-auto bg-white" data-aos="fade-in">
-      <div className="flex flex-col justify-center mt-[5rem]">
-        <p className="text-[#909090] font-semibold text-[12px] text-center">
-          LIKE WHAT YOU SEE?
-        </p>
-        <h1 className="text-[#7A983D] font-semibold text-[28px] text-center">
-          Want to work together
-        </h1>
-        <p className="mt-5 max-w-[300px] md:max-w-[384px] lg:max-w-[384px] text-black text-center justify-center text-[16px] ml-auto mr-auto">
-          If you’re looking for a kick-ass software company, we’re here to help!
-        </p>
-        <button className="w-[134px] h-[40px] rounded-[5px] bg-[#7A983D] text-white mt-5 ml-auto mr-auto hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+      <div className="flex flex-col md:flex-row md:justify-between">
+        <div className="flex flex-col justify-start">
+          <img src={Onesheet} alt="" width="180px" />
+          <h2 className="font-semibold mb-5">
+            Want to resolve some questions you might have?
+          </h2>
           <a
-            href="mailto:onesheetsolutions@gmail.com"
-            target={"_blank"}
-            rel="noreferrer"
-            className=""
+            href="https://whatsap.chat/"
+            alt=""
+            className="bg-gray-100 rounded-md w-[120px] text-center h-[26px]  mb-5"
           >
             Get in touch
           </a>
-        </button>
+        </div>
+        <div className="flex flex-col md:flex-row md:justify-between gap-8">
+          <ul className="list-none">
+            <li className="font-semibold">Quick Links</li>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Our Services</li>
+            <li>Solutions</li>
+            <li>Contact Us</li>
+          </ul>
+          <ul className="list-none">
+            <li className="font-semibold">Contact Details</li>
+            <li>021 712 3390</li>
+            <li>info@ecoclad.co.za</li>
+            <li>Unit 11, Denval Industrial Park Fisher Avenue, Epping 1</li>
+          </ul>
+        </div>
       </div>
-      <div className="w-[90vw] border-stone-900"></div>
+
       <div className="flex flex-row justify-between align-middle pt-[6rem] pb-8 text-[#CCC]">
         <p className="text-[12px] pt-1 ml-4 lg:ml-10">
           &copy; 2023 ECOClad. All Rights Reserved.
