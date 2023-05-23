@@ -26,17 +26,19 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row md:justify-between gap-8">
           <ul className="list-none">
             <li className="font-semibold">Quick Links</li>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Our Services</li>
-            <li>Solutions</li>
-            <li>Contact Us</li>
+            <li className="text-gray-600">Home</li>
+            <li className="text-gray-600">About Us</li>
+            <li className="text-gray-600">Our Services</li>
+            <li className="text-gray-600">Solutions</li>
+            <li className="text-gray-600">Contact Us</li>
           </ul>
           <ul className="list-none">
             <li className="font-semibold">Contact Details</li>
-            <li>021 712 3390</li>
-            <li>info@ecoclad.co.za</li>
-            <li>Unit 11, Denval Industrial Park Fisher Avenue, Epping 1</li>
+            <li className="text-gray-600">021 712 3390</li>
+            <li className="text-gray-600">info@ecoclad.co.za</li>
+            <li className="text-gray-600">
+              Unit 11, Denval Industrial Park Fisher Avenue, Epping 1
+            </li>
           </ul>
         </div>
       </div>
@@ -50,7 +52,7 @@ const Footer = () => {
             href="https://www.facebook.com/Ecoclad.co.za?notif_id=1684522769639268&notif_t=page_user_activity&ref=notif"
             target={"_blank"}
             rel="noreferrer"
-            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+            className="text-[#CCC] font-semibold hover:text-[#DEE21B] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillFacebook size={24} className="mr-3" />
           </a>
@@ -58,7 +60,7 @@ const Footer = () => {
             href="https://www.twitter.com"
             target={"_blank"}
             rel="noreferrer"
-            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+            className="text-[#CCC] font-semibold hover:text-[#DEE21B] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillTwitterSquare size={24} className="mr-3" />
           </a> */}
@@ -66,7 +68,7 @@ const Footer = () => {
             href="https://www.instagram.com"
             target={"_blank"}
             rel="noreferrer"
-            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+            className="text-[#CCC] font-semibold hover:text-[#DEE21B] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillInstagram size={24} className="mr-3" />
           </a>
@@ -74,7 +76,7 @@ const Footer = () => {
             href="https://www.linkedin.com"
             target={"_blank"}
             rel="noreferrer"
-            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+            className="text-[#CCC] font-semibold hover:text-[#DEE21B] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillLinkedin size={24} />
           </a>

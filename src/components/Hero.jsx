@@ -2,6 +2,8 @@ import { useEffect } from "react";
 // import Product1 from "../assets/product1.png";
 import { motion, useAnimation } from "framer-motion";
 
+// import HeroBg from "../assets/img/roof.jpg";
+
 const Hero = () => {
   const controls = useAnimation();
 
@@ -15,15 +17,23 @@ const Hero = () => {
   return (
     <motion.div
       id="hero"
-      className="w-full h-full pb-5 bg-[#56AC8B] overflow-x-hidden"
+      className="w-full h-full relative pb-5 bg-white overflow-x-hidden"
     >
-      <div className="w-full h-full flex flex-row justify-between align-middle pt-[6rem] lg:pt-[10rem]">
+      {/* background img */}
+      {/* <div className="absolute w-full z-[-1]">
+        <img
+          src={HeroBg}
+          alt="Ecoclad Roofing"
+          className="w-full object-cover"
+        />
+      </div> */}
+      <div className="z-[-1] w-full h-full flex flex-row justify-between align-middle pt-[6rem] lg:pt-[10rem]">
         <motion.div className="flex flex-col pl-[3.3rem] lg:pl-[6rem] lg:pt-8">
           <motion.h1
             initial={{ x: "-200px" }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
-            className="text-[40px]  lg:max-w-[508px] text-white font-bold text-left leading-tight mb-8 lg:text-[52px]"
+            className="text-[40px]  lg:max-w-[508px] text-black font-bold text-left leading-tight mb-8 lg:text-[52px]"
           >
             Roofing Solutions
           </motion.h1>
@@ -31,7 +41,7 @@ const Hero = () => {
             initial={{ x: "-200px" }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
-            className="text-[18px] max-w-[360px] lg:max-w-[508px] text-white font-regular text-left leading-tight mb-8 lg:text-[52px]"
+            className="text-[18px] max-w-[360px] lg:max-w-[508px] text-black font-regular text-left leading-tight mb-8 lg:text-[52px]"
           >
             High Quality, Eco-Friendly Roofing, Cladding & Insulation Solutions
             To The Industrial, Commercial & Domestic Markets
@@ -42,7 +52,7 @@ const Hero = () => {
                 initial={{ x: "-200px" }}
                 animate={{ x: 0 }}
                 transition={{ duration: 0.8 }}
-                className="w-[115px] h-[41px] rounded-[5px] bg-[#56AC8B] mr-3 border-white border-2 text-white  lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:scale-105"
+                className="w-[115px] h-[41px] rounded-[5px] bg-[#7A983D] mr-3 border-white border-2 text-white  lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:scale-105"
               >
                 <a href="#features">Learn More</a>
               </motion.button>
@@ -52,7 +62,7 @@ const Hero = () => {
                 initial={{ x: "-200px" }}
                 animate={{ x: 0 }}
                 transition={{ duration: 0.5 }}
-                className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#56AC8B] lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:hover:scale-105"
+                className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#7A983D] lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:hover:scale-105"
               >
                 <a href="#pricing">Contact Now</a>
               </motion.button>

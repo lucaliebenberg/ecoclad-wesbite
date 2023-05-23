@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-[60px] bg-[#56AC8B]">
+    <div className="w-full h-[60px] bg-white">
       <div className="px-4 lg:px-14 mx-auto flex justify-between items-center h-full">
         <motion.div
           initial={{ x: "-200px" }}
@@ -90,9 +90,9 @@ const Navbar = () => {
           onClick={handleNav}
         >
           {nav ? (
-            <AiOutlineClose size={30} className="text-white" />
+            <AiOutlineClose size={30} className="text-[#475D2A]" />
           ) : (
-            <AiOutlineMenu size={30} className="text-white" />
+            <AiOutlineMenu size={30} className="text-[#475D2A]" />
           )}
         </motion.div>
 
@@ -100,7 +100,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "w-[95vw] rounded-md bg-white text-[#56AC8B] absolute top-[50px] left-0 flex justify-center text-center ml-1 mt-2 md:hidden lg:hidden xl:hidden"
+              ? "w-[95vw] rounded-md bg-red text-[#56AC8B] absolute top-[50px] left-0 flex justify-center text-center ml-1 mt-2 md:hidden lg:hidden xl:hidden"
               : // try 'hidden' instead of below
                 "absolute left-[-100%]"
           }
