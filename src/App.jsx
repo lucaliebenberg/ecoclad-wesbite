@@ -1,24 +1,27 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import AboutUs from "./components/AboutUs";
-import WhatWeOffer from "./components/WhatWeOffer";
-import WhyUs from "./components/WhyUs";
-import Testimonials from "./components/Testimonials";
-import Footer from "./components/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "../src/components/Navbar";
+
+// pages
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import OurServices from "./pages/OurServices";
+import Solutions from "./pages/Solutions";
+import ContactUs from "./pages/ContactUs";
 
 import "./index.css";
 
 const App = () => {
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
-      <Hero />
-      <AboutUs />
-      <WhatWeOffer />
-      <WhyUs />
-      <Testimonials />
-      <Footer />
-    </>
+      <Routes>
+        <Route exact="true" path="/" element={<Home />} />
+        <Route exact="true" path="/aboutus" element={<AboutUs />} />
+        <Route exact="true" path="/ourservices" element={<OurServices />} />
+        <Route exact="true" path="/solutions" element={<Solutions />} />
+        <Route exact="true" path="/contactus" element={<ContactUs />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
