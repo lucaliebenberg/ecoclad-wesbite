@@ -2,7 +2,11 @@ import OfferImg1 from "../assets/img/landscape-img-1.jpeg";
 
 const WhyUs = () => {
   return (
-    <div id="WhyUs" className="w-full h-auto bg-white" data-aos="fade-in">
+    <div
+      id="WhyUs"
+      className="w-full h-auto pl-[3.3rem] bg-white"
+      data-aos="fade-in"
+    >
       <div className="flex flex-col">
         <h1 className="text-[48px] text-black text-semibold">Why Us</h1>
       </div>

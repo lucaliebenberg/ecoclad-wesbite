@@ -8,7 +8,11 @@ import Onesheet from "../assets/logo.svg";
 
 const Footer = () => {
   return (
-    <div id="footer" className="w-full h-auto bg-white" data-aos="fade-in">
+    <div
+      id="footer"
+      className="w-full h-auto bg-white pl-[3.3rem]"
+      data-aos="fade-in"
+    >
       <div className="flex flex-col md:flex-row md:justify-between">
         <div className="flex flex-col justify-start">
           <img src={Onesheet} alt="" width="180px" />
@@ -17,6 +21,8 @@ const Footer = () => {
           </h2>
           <a
             href="https://whatsap.chat/"
+            target="_blank"
+            rel="noreferrer"
             alt=""
             className="bg-gray-100 rounded-md w-[120px] text-center h-[26px]  mb-5"
           >
@@ -26,17 +32,31 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row md:justify-between gap-8">
           <ul className="list-none">
             <li className="font-semibold">Quick Links</li>
-            <li className="text-gray-600">Home</li>
-            <li className="text-gray-600">About Us</li>
-            <li className="text-gray-600">Our Services</li>
-            <li className="text-gray-600">Solutions</li>
-            <li className="text-gray-600">Contact Us</li>
+            <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
+              Home
+            </li>
+            <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
+              About Us
+            </li>
+            <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
+              Our Services
+            </li>
+            <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
+              Solutions
+            </li>
+            <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
+              Contact Us
+            </li>
           </ul>
           <ul className="list-none">
             <li className="font-semibold">Contact Details</li>
-            <li className="text-gray-600">021 712 3390</li>
-            <li className="text-gray-600">info@ecoclad.co.za</li>
-            <li className="text-gray-600">
+            <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
+              021 712 3390
+            </li>
+            <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
+              info@ecoclad.co.za
+            </li>
+            <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
               Unit 11, Denval Industrial Park Fisher Avenue, Epping 1
             </li>
           </ul>

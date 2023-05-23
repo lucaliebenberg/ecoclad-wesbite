@@ -3,7 +3,7 @@ import AboutImg from "../assets/img/portrait-img-1.jpeg";
 const AboutUs = () => {
   return (
     <div id="AboutUs" className="w-full h-auto bg-white" data-aos="fade-in">
-      <div className="flex flex-col md:flex-row md:justify-between">
+      <div className="flex flex-col pl-[3.3rem] md:flex-row md:justify-between">
         <h1 className="text-[48px] text-black text-semibold">About Us</h1>
         <p className="w-full text-black text-[18px] md:max-w-[592px]">
           EcoClad provides high quality, eco-friendly roofing, cladding and

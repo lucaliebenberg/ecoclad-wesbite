@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full h-[60px] bg-white">
-      <div className="px-4 lg:px-14 mx-auto flex justify-between items-center h-full">
+      <div className="px-4 lg:px-14 mx-auto pl-[3.3rem] flex justify-between items-center h-full">
         <motion.div
           initial={{ x: "-200px" }}
           animate={{ x: 0 }}
