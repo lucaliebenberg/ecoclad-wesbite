@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div
       id="footer"
-      className="w-full h-auto bg-white pl-[3.3rem]"
+      className="w-full h-auto bg-white pl-[3.3rem] pt-[5rem]"
       data-aos="fade-in"
     >
       <div className="flex flex-col md:flex-row md:justify-between">
@@ -29,7 +29,7 @@ const Footer = () => {
             Get in touch
           </a>
         </div>
-        <div className="flex flex-col md:flex-row md:justify-between gap-8">
+        <div className="flex flex-col md:flex-row md:justify-between gap-8 pt-[2rem]">
           <ul className="list-none">
             <li className="font-semibold">Quick Links</li>
             <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">

@@ -4,11 +4,11 @@ const Testimonials = () => {
   return (
     <div
       id="Testimonials"
-      className="w-full h-auto bg-white"
+      className="w-full h-auto bg-white pt-[5rem]"
       data-aos="fade-in"
     >
       <div className="flex flex-col pl-[3.3rem]">
-        <h1 className="text-[48px] text-black text-semibold">Testimonials</h1>
+        <h1 className="text-[48px] text-black font-semibold">Testimonials</h1>
       </div>
 
       <div className="flex flex-col md:flex-row md:justify-between pl-[3.3rem] md:flex-wrap gap-8 md:gap-12">
