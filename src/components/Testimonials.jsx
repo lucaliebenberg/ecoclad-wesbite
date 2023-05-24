@@ -8,12 +8,14 @@ const Testimonials = () => {
       data-aos="fade-in"
     >
       <div className="flex flex-col pl-[3.3rem]">
-        <h1 className="text-[48px] text-black font-semibold">Testimonials</h1>
+        <h1 className="text-[48px] text-black font-semibold md:text-center">
+          Testimonials
+        </h1>
       </div>
 
-      <div className="flex flex-col md:flex-row md:justify-between pl-[3.3rem] md:flex-wrap gap-8 md:gap-12">
-        <div className="w-[90%] h-auto md:w-[38%] rounded-[4px] shadow-md">
-          <img src={OfferImg1} alt="our offers" />
+      <div className="flex flex-col pl-[3.3rem] gap-8 md:gap-12">
+        <div className="w-[90%] h-[40%] md:w-[50vw] rounded-[4px] shadow-md md:ml-auto md:mr-auto md:mt-[3rem] md:mb-[3rem]">
+          <img src={OfferImg1} alt="our offers" className="rounded-lg" />
         </div>
       </div>
     </div>

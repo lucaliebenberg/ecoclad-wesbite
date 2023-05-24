@@ -41,7 +41,7 @@ const Hero = () => {
             initial={{ x: "-200px" }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
-            className="text-[18px] max-w-[360px] lg:max-w-[508px] text-black font-regular text-left leading-tight mb-8 lg:text-[52px]"
+            className="text-[18px] max-w-[360px] lg:max-w-[508px] text-black font-regular text-left leading-tight mb-8 md:text-[26px]"
           >
             High Quality, Eco-Friendly Roofing, Cladding & Insulation Solutions
             To The Industrial, Commercial & Domestic Markets

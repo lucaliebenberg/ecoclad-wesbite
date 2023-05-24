@@ -11,7 +11,7 @@ const WhatWeOffer = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row md:justify-between pl-[3.3rem] md:flex-wrap gap-8 md:gap-12">
+      <div className="flex flex-col md:flex-row md:justify-between pl-[3.3rem] md:flex-wrap gap-8 md:gap-8 w-[80%]">
         <div className="w-[90%] h-auto md:w-[38%] md:h-[32%] rounded-[4px] shadow-md hover:cursor-pointer hover:scale-105 duration-300 ease-in-out transition-all">
           <img src={OfferImg1} alt="our offers" />
         </div>
