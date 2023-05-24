@@ -56,7 +56,7 @@ const Footer = () => {
               <a href="/conatctus">Contact Us</a>
             </li>
           </ul>
-          <ul className="list-none">
+          <ul className="list-none md:ml-12">
             <li className="font-semibold mb-5">Contact Details</li>
             <li className="mb-2 text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a href="tel:+27 826808198">021 712 3390</a>
@@ -70,7 +70,7 @@ const Footer = () => {
                 info@ecoclad.co.za
               </a>
             </li>
-            <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
+            <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out md:max-w-[80%]">
               <a
                 href="https://www.google.com/maps/dir//ecoclad/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x1dcc5b6f667555a1:0xdd8eca45857b3d06?sa=X&ved=2ahUKEwiYrNbOo43_AhXHa8AKHRw0CNIQ9Rd6BAg-EAU"
                 target="_blank"
