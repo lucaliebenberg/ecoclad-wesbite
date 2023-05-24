@@ -13,7 +13,7 @@ const WhyUs = () => {
 
       <div className="flex flex-col md:flex-row md:justify-between md:flex-wrap gap-8 md:gap-12">
         <div>
-          <div className="w-full h-auto md:w-[45%] rounded-[4px] shadow-md">
+          <div className="w-[90%] h-auto md:w-[45%] rounded-[4px] shadow-md">
             <img src={OfferImg1} alt="our offers" />
           </div>
           <div className="pt-[6rem] max-w-[460px]">
@@ -37,7 +37,7 @@ const WhyUs = () => {
         </div>
 
         <div className="flex flex-col md:flex-row md:justify-between md:flex-wrap gap-8 md:gap-12">
-          <div className="w-full h-auto md:w-[45%] rounded-[4px] shadow-md">
+          <div className="w-[90%] h-auto md:w-[45%] rounded-[4px] shadow-md">
             <img src={OfferImg1} alt="our offers" />
           </div>
           <div className="pt-[6rem] max-w-[460px]">

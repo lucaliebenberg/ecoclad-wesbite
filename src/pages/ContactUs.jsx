@@ -65,7 +65,7 @@ const ContactUs = () => {
             <form
               ref={formRef}
               // onSubmit={sendEmail}
-              className="mt-12 flex flex-col gap-8 p-4 bg-[#CCC] rounded-lg"
+              className="w-[90%] mt-12 flex flex-col gap-8 p-4 bg-[#CCC] rounded-lg"
             >
               <label className="flex flex-col">
                 <span className="text-white font-medium mb-4">Your Name</span>
@@ -115,48 +115,61 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="flex flex-col mt-[4rem] pt-0 p-[5rem] h-full md:flex-row md:justify-between lg:mt-auto lg:mb-auto">
-          <div className="flex flex-col mr-2 lg:mt-14 xl:mr-0">
+        <div className="flex flex-col w-full justify-start mt-[4rem] pt-0 p-[5rem] h-full md:flex-row md:justify-between lg:mt-auto lg:mb-auto">
+          <div className="w-full flex flex-row mr-2 lg:mt-14 xl:mr-0 mb-12">
             <img
               src="https://picsum.photos/200"
               alt="Feature 1 icon"
-              className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
+              className="h-[32px] w-[32px] mb-10 mr-6"
             />
-            <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-center mb-4">
-              Give Us A Call
-            </h2>
-            <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
-              +27 82 680 8198
-            </p>
-          </div>
-
-          <div>
-            <div className="flex flex-col mt-14">
-              <img
-                src="https://picsum.photos/200"
-                alt="Feature 2 icon"
-                className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
-              />
-              <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-center mb-4">
-                Email Us
+            <div className="flex flex-col justify-start">
+              <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-left mb-4">
+                Give Us A Call
               </h2>
-              <p className="text-[13px] md:text-[14px] lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
-                info@ecoclad.co.za
+              <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-left max-w-[277px]">
+                <a href="tel:+27 826808198">021 712 3390</a>
               </p>
             </div>
           </div>
-          <div>
-            <div className="flex flex-col mt-14">
-              <img
-                src="https://picsum.photos/200"
-                alt="Feature 3 icon"
-                className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
-              />
-              <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-center mb-4">
+          <div className="w-full flex flex-row mr-2 lg:mt-14 xl:mr-0 mb-12">
+            <img
+              src="https://picsum.photos/200"
+              alt="Feature 1 icon"
+              className="h-[32px] w-[32px] mb-10 mr-6"
+            />
+            <div className="flex flex-col justify-start">
+              <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-left mb-4">
+                Email Us
+              </h2>
+              <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-left max-w-[277px]">
+                <a
+                  href="mailto:infoecoclad@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  info@ecoclad.co.za
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="w-full flex flex-row mr-2 lg:mt-14 xl:mr-0 mb-12">
+            <img
+              src="https://picsum.photos/200"
+              alt="Feature 1 icon"
+              className="h-[32px] w-[32px] mb-10 mr-6"
+            />
+            <div className="flex flex-col justify-start">
+              <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-left mb-4">
                 Our Location
               </h2>
-              <p className="text-[13px] md:text-[14px] lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[260px]">
-                Unit 11, Denval Industrial ParkFisher Avenue, Epping 1
+              <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-left max-w-[320px]">
+                <a
+                  href="https://www.google.com/maps/dir//ecoclad/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x1dcc5b6f667555a1:0xdd8eca45857b3d06?sa=X&ved=2ahUKEwiYrNbOo43_AhXHa8AKHRw0CNIQ9Rd6BAg-EAU"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Unit 11, Denval Industrial Park Fisher Avenue, Epping 1
+                </a>
               </p>
             </div>
           </div>

@@ -4,6 +4,7 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 
+import WhatsappIcon from "../assets/whatsapp-icon.png";
 import Onesheet from "../assets/logo.svg";
 
 const Footer = () => {
@@ -16,44 +17,51 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row md:justify-between">
         <div className="flex flex-col justify-start">
           <img src={Onesheet} alt="" width="180px" />
-          <h2 className="max-w-[80vw] md:max-w-[70%] font-semibold mb-5">
+          <h2 className="max-w-[80vw] md:max-w-[70%] font-semibold mt-5 mb-5">
             Want to resolve some questions you might have?
           </h2>
-          <a
-            href="https://whatsap.chat/"
-            target="_blank"
-            rel="noreferrer"
-            alt=""
-            className="bg-gray-100 rounded-md w-[120px] text-center h-[26px]  mb-5"
-          >
-            Get in touch
-          </a>
+          <div className="">
+            <a
+              href="https://whatsap.chat/"
+              target="_blank"
+              rel="noreferrer"
+              alt=""
+              className="mt-auto mb-auto bg-gray-100 p-2 rounded-md w-[142px] text-center h-auto flex flex-row justify-between "
+            >
+              <img
+                src={WhatsappIcon}
+                alt="Whatsapp icon"
+                className="w-[1.5rem] h-auto"
+              />
+              Get in touch
+            </a>
+          </div>
         </div>
         <div className="flex flex-col md:flex-row md:justify-between gap-8 pt-[2rem]">
           <ul className="list-none">
-            <li className="font-semibold">Quick Links</li>
-            <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
+            <li className="font-semibold mb-5">Quick Links</li>
+            <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a href="/home">Home</a>
             </li>
-            <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
+            <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a href="/aboutus">About Us</a>
             </li>
-            <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
+            <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a href="/ourservices">Our Services</a>
             </li>
-            <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
+            <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a href="/solutions">Solutions</a>
             </li>
-            <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
+            <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a href="/conatctus">Contact Us</a>
             </li>
           </ul>
           <ul className="list-none">
-            <li className="font-semibold">Contact Details</li>
-            <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
+            <li className="font-semibold mb-5">Contact Details</li>
+            <li className="mb-2 text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a href="tel:+27 826808198">021 712 3390</a>
             </li>
-            <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
+            <li className="mb-2 text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a
                 href="mailto:infoecoclad@gmail.com"
                 target="_blank"
