@@ -9,8 +9,10 @@ const OurServices = () => {
         data-aos="fade-in"
       >
         <div className="flex flex-col mt-[5rem] pl-[3.3rem] md:flex-row md:justify-between">
-          <h1 className="text-[48px] text-black font-semibold">Our Services</h1>
-          <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[592px] mb-[2rem]">
+          <h1 className="text-[32px] md:text-[48px] text-black font-bold pb-3">
+            Our Services
+          </h1>
+          <p className="w-full text-black text-[16px] md:text-[18px] max-w-[460px] md:max-w-[592px] mb-[2rem]">
             Typically, all of the below are seamlessly integrated into a single,
             unified EcoClad service. However, should it be required, each
             component can be accessed as a separate service.
@@ -18,7 +20,7 @@ const OurServices = () => {
         </div>
 
         <div className="w-full h-auto pl-[3.3rem] mt-[4rem]">
-          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8">
+          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
             <img
               src="https://picsum.photos/550/320"
               alt=""
@@ -39,7 +41,7 @@ const OurServices = () => {
             </p>
           </div>
 
-          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8">
+          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
             <img
               src="https://picsum.photos/550/320"
               alt=""
@@ -56,7 +58,7 @@ const OurServices = () => {
             </p>
           </div>
 
-          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8">
+          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
             <img
               src="https://picsum.photos/550/320"
               alt=""
@@ -73,7 +75,7 @@ const OurServices = () => {
             </p>
           </div>
 
-          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8">
+          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
             <img
               src="https://picsum.photos/550/320"
               alt=""
@@ -90,7 +92,7 @@ const OurServices = () => {
             </p>
           </div>
 
-          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8">
+          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
             <img
               src="https://picsum.photos/550/320"
               alt=""
@@ -107,7 +109,7 @@ const OurServices = () => {
             </p>
           </div>
 
-          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8">
+          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
             <img
               src="https://picsum.photos/550/320"
               alt=""
