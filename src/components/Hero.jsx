@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <motion.div
       id="hero"
-      className="w-full h-full relative pb-5 bg-white overflow-x-hidden"
+      className="w-full h-full relative pb-5 bg-white overflow-x-hidden z-8"
     >
       {/* background img */}
       {/* <div className="absolute w-full z-[-1]">
