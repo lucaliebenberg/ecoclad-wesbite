@@ -6,7 +6,9 @@ const AboutUs = () => {
     <>
       <div id="AboutUs" className="w-full h-auto bg-white" data-aos="fade-in">
         <div className="flex flex-col mt-[5rem] pl-[3.3rem] md:flex-row md:justify-between">
-          <h1 className="text-[48px] text-black font-semibold">About Us</h1>
+          <h1 className="text-[48px] text-black font-semibold pb-4">
+            About Us
+          </h1>
           <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[592px] mb-[2rem]">
             EcoClad provides high quality, eco-friendly roofing, cladding and
             insulation solutions to the industrial, commercial and domestic
@@ -50,7 +52,7 @@ const AboutUs = () => {
           <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-center mb-4">
             EcoClad Materials Specifications
           </h2>
-          <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
+          <p className="ml-auto mr-auto text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
             EcoClad is an Independent Roofing Company with no affiliates to any
             specific Suppliers and is consequently able to offer the best and
             cost-effective materials tailormade to your specific contract and
@@ -68,7 +70,7 @@ const AboutUs = () => {
             <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-center mb-4">
               Professional Project Management
             </h2>
-            <p className="text-[13px] md:text-[14px] lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
+            <p className="ml-auto mr-auto text-[13px] md:text-[14px] lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
               All projects and installations are professionally planned and
               managed according to industry codes and best practices. Clients
               are an integral part of the Design and Build process and we
@@ -87,7 +89,7 @@ const AboutUs = () => {
             <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-center mb-4">
               Long Term Service Excellence
             </h2>
-            <p className="text-[13px] md:text-[14px] lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[260px]">
+            <p className="ml-auto mr-auto text-[13px] md:text-[14px] lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[260px]">
               EcoClad’s commitment to service excellence does not end with the
               completion of a project, and all installations carry a full
               Workmanship guarantee and Manufacturers Warranty, with all
@@ -103,7 +105,7 @@ const AboutUs = () => {
         data-aos="fade-in"
       >
         <div className="flex flex-col pl-[3.3rem] pt-[5rem] pb-[3rem] md:text-left">
-          <h1 className="text-[32px] md:text-[48px] text-black font-semibold">
+          <h1 className="text-[32px] md:text-[48px] text-black font-semibold pb-4">
             Our Comitted Team
           </h1>
           <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[592px]">
@@ -117,18 +119,20 @@ const AboutUs = () => {
 
         <div className="flex flex-col md:flex-row md:justify-between pl-[3.3rem] md:flex-wrap gap-8 md:gap-12">
           <div className="w-[60%] h-auto md:w-[38%] md:h-[33%] rounded-[4px] shadow-md">
-            <img src="https://picsum.photos/200" alt="our ecoclad team" />
+            <img src="https://picsum.photos/700/500" alt="our ecoclad team" />
+          </div>
+          <div className="w-[60%] h-auto md:700/500-[38%] md:h-[33%] rounded-[4px] shadow-md">
+            <img src="https://picsum.photos/700/500" alt="our ecoclad team" />
           </div>
           <div className="w-[60%] h-auto md:w-[38%] md:h-[33%] rounded-[4px] shadow-md">
-            <img src="https://picsum.photos/200" alt="our ecoclad team" />
-          </div>
-          <div className="w-[60%] h-auto md:w-[38%] md:h-[33%] rounded-[4px] shadow-md">
-            <img src="https://picsum.photos/200" alt="our ecoclad team" />
+            <img src="https://picsum.photos/700/500" alt="our ecoclad team" />
           </div>
         </div>
 
         <div className="flex flex-col mt-[5rem] pl-[3.3rem] md:flex-row md:justify-between">
-          <h1 className="text-[48px] text-black font-semibold">About Us</h1>
+          <h1 className="text-[48px] text-black font-semibold pb-4">
+            About Us
+          </h1>
           <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[592px] mb-[2rem]">
             Installations are carried out by a well-motivated, long-serving
             workforce who are proud of their achievements and have an enviable

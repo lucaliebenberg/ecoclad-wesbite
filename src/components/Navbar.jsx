@@ -22,7 +22,7 @@ const Navbar = () => {
             <img
               src={Onesheet}
               alt="Onesheet Logo"
-              className="w-[210px] hover:cursor-pointer p-0 xl:p-0"
+              className="w-[140px] hover:cursor-pointer p-0 xl:p-0"
             />
           </h1>
         </motion.div>
@@ -90,9 +90,9 @@ const Navbar = () => {
           onClick={handleNav}
         >
           {nav ? (
-            <AiOutlineClose size={30} className="text-gray" />
+            <AiOutlineClose size={28} className="text-gray" />
           ) : (
-            <AiOutlineMenu size={30} className="text-gray" />
+            <AiOutlineMenu size={28} className="text-gray" />
           )}
         </motion.div>
 
