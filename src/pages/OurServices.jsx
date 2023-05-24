@@ -19,8 +19,8 @@ const OurServices = () => {
           </p>
         </div>
 
-        <div className="w-full h-auto pl-[3.3rem] mt-[4rem]">
-          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
+        <div className="w-full h-auto pl-[3.3rem] mt-[4rem] flex flex-col md:flex-row md:flex-wrap md:justify-between">
+          <div className="w-full flex flex-col ml-auto mr-auto pr-8 mb-14 md:max-w-[48%]">
             <div className="mb-3">
               <img
                 src="https://picsum.photos/550/320"
@@ -28,7 +28,7 @@ const OurServices = () => {
                 className="rounded-[12px] h-auto"
               />
             </div>
-            <h2 className="text-[18px] pt-3 pb-3 md:text-[30px] font-semibold text-black">
+            <h2 className="text-[18px] pt-3 pb-3 md:text-[24px] font-semibold text-black">
               Clients Roof Design And Insulation
             </h2>
             <p className="text-[16px] font-regular text-black">
@@ -43,7 +43,7 @@ const OurServices = () => {
             </p>
           </div>
 
-          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
+          <div className="w-full flex flex-col ml-auto mr-auto pr-8 mb-14 md:max-w-[48%]">
             <div className="mb-3">
               <img
                 src="https://picsum.photos/550/320"
@@ -51,7 +51,7 @@ const OurServices = () => {
                 className="rounded-[12px] h-auto"
               />
             </div>
-            <h2 className="text-[18px] pt-3 pb-3 md:text-[30px] font-semibold text-black">
+            <h2 className="text-[18px] pt-3 pb-3 md:text-[24px] font-semibold text-black">
               Roof Structure Comprehensive Design
             </h2>
             <p className="text-[16px] font-regular text-black">
@@ -62,7 +62,7 @@ const OurServices = () => {
             </p>
           </div>
 
-          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
+          <div className="w-full flex flex-col ml-auto mr-auto pr-8 mb-14 md:max-w-[48%]">
             <div className="mb-3">
               <img
                 src="https://picsum.photos/550/320"
@@ -70,7 +70,7 @@ const OurServices = () => {
                 className="rounded-[12px] h-auto"
               />
             </div>
-            <h2 className="text-[18px] pt-3 pb-3 md:text-[30px] font-semibold text-black">
+            <h2 className="text-[18px] pt-3 pb-3 md:text-[24px] font-semibold text-black">
               Roof Material Specification
             </h2>
             <p className="text-[16px] font-regular text-black">
@@ -81,7 +81,7 @@ const OurServices = () => {
             </p>
           </div>
 
-          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
+          <div className="w-full flex flex-col ml-auto mr-auto pr-8 mb-14 md:max-w-[48%]">
             <div className="mb-3">
               <img
                 src="https://picsum.photos/550/320"
@@ -89,7 +89,7 @@ const OurServices = () => {
                 className="rounded-[12px] h-auto"
               />
             </div>
-            <h2 className="text-[18px] pt-3 pb-3 md:text-[30px] font-semibold text-black">
+            <h2 className="text-[18px] pt-3 pb-3 md:text-[24px] font-semibold text-black">
               Roof Material Procurement Options
             </h2>
             <p className="text-[16px] font-regular text-black">
@@ -100,7 +100,7 @@ const OurServices = () => {
             </p>
           </div>
 
-          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
+          <div className="w-full flex flex-col ml-auto mr-auto pr-8 mb-14 md:max-w-[48%]">
             <div className="mb-3">
               <img
                 src="https://picsum.photos/550/320"
@@ -108,7 +108,7 @@ const OurServices = () => {
                 className="rounded-[12px] h-auto"
               />
             </div>
-            <h2 className="text-[18px] pt-3 pb-3 md:text-[30px] font-semibold text-black">
+            <h2 className="text-[18px] pt-3 pb-3 md:text-[24px] font-semibold text-black">
               Low Price Installation By Experienced Crew
             </h2>
             <p className="text-[16px] font-regular text-black">
@@ -119,7 +119,7 @@ const OurServices = () => {
             </p>
           </div>
 
-          <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
+          <div className="w-full flex flex-col ml-auto mr-auto pr-8 mb-14 md:max-w-[48%]">
             <div className="mb-3">
               <img
                 src="https://picsum.photos/550/320"
@@ -127,7 +127,7 @@ const OurServices = () => {
                 className="rounded-[12px] h-auto"
               />
             </div>
-            <h2 className="text-[18px] pt-3 pb-3 md:text-[30px] font-semibold text-black">
+            <h2 className="text-[18px] pt-3 pb-3 md:text-[24px] font-semibold text-black">
               Roof Maintenance Of Industrial, Commercial Complexes
             </h2>
             <p className="text-[16px] font-regular text-black">
