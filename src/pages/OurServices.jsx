@@ -8,7 +8,7 @@ const OurServices = () => {
         className="w-full h-auto bg-white"
         data-aos="fade-in"
       >
-        <div className="flex flex-col mt-[5rem] pl-[3.3rem] md:flex-row md:justify-between">
+        <div className="flex flex-col mt-[5rem] pl-[3.3rem]">
           <h1 className="text-[32px] md:text-[48px] text-black font-bold pb-3">
             Our Services
           </h1>
@@ -21,11 +21,13 @@ const OurServices = () => {
 
         <div className="w-full h-auto pl-[3.3rem] mt-[4rem]">
           <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
-            <img
-              src="https://picsum.photos/550/320"
-              alt=""
-              className="rounded-[12px] h-auto"
-            />
+            <div className="mb-3">
+              <img
+                src="https://picsum.photos/550/320"
+                alt=""
+                className="rounded-[12px] h-auto"
+              />
+            </div>
             <h2 className="text-[18px] pt-3 pb-3 md:text-[30px] font-semibold text-black">
               Clients Roof Design And Insulation
             </h2>
@@ -42,11 +44,13 @@ const OurServices = () => {
           </div>
 
           <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
-            <img
-              src="https://picsum.photos/550/320"
-              alt=""
-              className="rounded-[12px] h-auto"
-            />
+            <div className="mb-3">
+              <img
+                src="https://picsum.photos/550/320"
+                alt=""
+                className="rounded-[12px] h-auto"
+              />
+            </div>
             <h2 className="text-[18px] pt-3 pb-3 md:text-[30px] font-semibold text-black">
               Roof Structure Comprehensive Design
             </h2>
@@ -59,11 +63,13 @@ const OurServices = () => {
           </div>
 
           <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
-            <img
-              src="https://picsum.photos/550/320"
-              alt=""
-              className="rounded-[12px] h-auto"
-            />
+            <div className="mb-3">
+              <img
+                src="https://picsum.photos/550/320"
+                alt=""
+                className="rounded-[12px] h-auto"
+              />
+            </div>
             <h2 className="text-[18px] pt-3 pb-3 md:text-[30px] font-semibold text-black">
               Roof Material Specification
             </h2>
@@ -76,11 +82,13 @@ const OurServices = () => {
           </div>
 
           <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
-            <img
-              src="https://picsum.photos/550/320"
-              alt=""
-              className="rounded-[12px] h-auto"
-            />
+            <div className="mb-3">
+              <img
+                src="https://picsum.photos/550/320"
+                alt=""
+                className="rounded-[12px] h-auto"
+              />
+            </div>
             <h2 className="text-[18px] pt-3 pb-3 md:text-[30px] font-semibold text-black">
               Roof Material Procurement Options
             </h2>
@@ -93,11 +101,13 @@ const OurServices = () => {
           </div>
 
           <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
-            <img
-              src="https://picsum.photos/550/320"
-              alt=""
-              className="rounded-[12px] h-auto"
-            />
+            <div className="mb-3">
+              <img
+                src="https://picsum.photos/550/320"
+                alt=""
+                className="rounded-[12px] h-auto"
+              />
+            </div>
             <h2 className="text-[18px] pt-3 pb-3 md:text-[30px] font-semibold text-black">
               Low Price Installation By Experienced Crew
             </h2>
@@ -110,11 +120,13 @@ const OurServices = () => {
           </div>
 
           <div className="w-full flex flex-col ml-auto mr-auto md:flex-row md:justify-between pr-8 mb-14">
-            <img
-              src="https://picsum.photos/550/320"
-              alt=""
-              className="rounded-[12px] h-auto"
-            />
+            <div className="mb-3">
+              <img
+                src="https://picsum.photos/550/320"
+                alt=""
+                className="rounded-[12px] h-auto"
+              />
+            </div>
             <h2 className="text-[18px] pt-3 pb-3 md:text-[30px] font-semibold text-black">
               Roof Maintenance Of Industrial, Commercial Complexes
             </h2>
