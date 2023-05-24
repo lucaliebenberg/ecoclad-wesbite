@@ -54,7 +54,7 @@ const Hero = () => {
                 transition={{ duration: 0.8 }}
                 className="w-[115px] h-[41px] rounded-[5px] bg-[#7A983D] mr-3 border-white border-2 text-white  lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:scale-105"
               >
-                <a href="#features">Learn More</a>
+                <a href="/aboutus">Learn More</a>
               </motion.button>
             </div>
             <div className="hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
@@ -64,7 +64,7 @@ const Hero = () => {
                 transition={{ duration: 0.5 }}
                 className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#7A983D] lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:hover:scale-105"
               >
-                <a href="#pricing">Contact Now</a>
+                <a href="/contactus">Contact Now</a>
               </motion.button>
             </div>
           </div>

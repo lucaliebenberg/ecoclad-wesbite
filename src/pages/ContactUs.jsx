@@ -115,15 +115,15 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-full justify-start mt-[4rem] pt-0 p-[5rem] h-full md:flex-row md:justify-between lg:mt-auto lg:mb-auto">
+        <div className="flex flex-col w-full justify-start mt-[8rem] pt-0 p-[5rem] h-full md:flex-row md:justify-between lg:mt-auto lg:mb-auto">
           <div className="w-full flex flex-row mr-2 lg:mt-14 xl:mr-0 mb-12">
             <img
               src="https://picsum.photos/200"
               alt="Feature 1 icon"
-              className="h-[32px] w-[32px] mb-10 mr-6"
+              className="h-[32px] w-[32px] mb-10 mr-6 rounded-md"
             />
             <div className="flex flex-col justify-start">
-              <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-left mb-4">
+              <h2 className="text-[20px] md:text-[22px] text-black font-bold lg:text-[28px] justify-center text-left mb-4">
                 Give Us A Call
               </h2>
               <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-left max-w-[277px]">
@@ -135,10 +135,10 @@ const ContactUs = () => {
             <img
               src="https://picsum.photos/200"
               alt="Feature 1 icon"
-              className="h-[32px] w-[32px] mb-10 mr-6"
+              className="h-[32px] w-[32px] mb-10 mr-6 rounded-md"
             />
             <div className="flex flex-col justify-start">
-              <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-left mb-4">
+              <h2 className="text-[20px] md:text-[22px] text-black font-bold lg:text-[28px] justify-center text-left mb-4">
                 Email Us
               </h2>
               <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-left max-w-[277px]">
@@ -156,10 +156,10 @@ const ContactUs = () => {
             <img
               src="https://picsum.photos/200"
               alt="Feature 1 icon"
-              className="h-[32px] w-[32px] mb-10 mr-6"
+              className="h-[32px] w-[32px] mb-10 mr-6 rounded-md"
             />
             <div className="flex flex-col justify-start">
-              <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-left mb-4">
+              <h2 className="text-[20px] md:text-[22px] text-black font-bold lg:text-[28px] justify-center text-left mb-4">
                 Our Location
               </h2>
               <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-left max-w-[320px]">

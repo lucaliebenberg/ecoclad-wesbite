@@ -26,11 +26,11 @@ const AboutUs = () => {
             of Retail and Building components to Client’s requirements.
           </li>
         </ul>
-        <div className="hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
-          <button className="w-[115px] h-[41px] mt-[1rem] rounded-[5px] bg-[#7A983D] text-white lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:hover:scale-105">
+        <>
+          <button className="w-[115px] h-[41px] mt-[1rem] rounded-[5px] bg-[#7A983D] text-white lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
             <a href="/aboutus">Read More</a>
           </button>
-        </div>
+        </>
       </div>
 
       <div className="pl-[3.3rem] mt-[2rem] ]">
