@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row md:justify-between">
         <div className="flex flex-col justify-start">
           <img src={Onesheet} alt="" width="180px" />
-          <h2 className="font-semibold mb-5">
+          <h2 className="max-w-[80vw] md:max-w-[70%] font-semibold mb-5">
             Want to resolve some questions you might have?
           </h2>
           <a
@@ -33,31 +33,55 @@ const Footer = () => {
           <ul className="list-none">
             <li className="font-semibold">Quick Links</li>
             <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              Home
+              <a href="/home" target="_blank" rel="noreferrer">
+                Home
+              </a>
             </li>
             <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              About Us
+              <a href="/aboutus" target="_blank" rel="noreferrer">
+                About Us
+              </a>
             </li>
             <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              Our Services
+              <a href="/ourservices" target="_blank" rel="noreferrer">
+                Our Services
+              </a>
             </li>
             <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              Solutions
+              <a href="/solutions" target="_blank" rel="noreferrer">
+                Solutions
+              </a>
             </li>
             <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              Contact Us
+              <a href="/conatctus" target="_blank" rel="noreferrer">
+                Contact Us
+              </a>
             </li>
           </ul>
           <ul className="list-none">
             <li className="font-semibold">Contact Details</li>
             <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              021 712 3390
+              <a href="tel:+27 826808198" target="_blank" rel="noreferrer">
+                021 712 3390
+              </a>
             </li>
             <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              info@ecoclad.co.za
+              <a
+                href="mailto:infoecoclad@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                info@ecoclad.co.za
+              </a>
             </li>
             <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              Unit 11, Denval Industrial Park Fisher Avenue, Epping 1
+              <a
+                href="https://www.google.com/maps/dir//ecoclad/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x1dcc5b6f667555a1:0xdd8eca45857b3d06?sa=X&ved=2ahUKEwiYrNbOo43_AhXHa8AKHRw0CNIQ9Rd6BAg-EAU"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Unit 11, Denval Industrial Park Fisher Avenue, Epping 1
+              </a>
             </li>
           </ul>
         </div>

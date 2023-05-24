@@ -12,7 +12,7 @@ const Testimonials = () => {
       </div>
 
       <div className="flex flex-col md:flex-row md:justify-between pl-[3.3rem] md:flex-wrap gap-8 md:gap-12">
-        <div className="w-[384px] h-[326px] rounded-[4px] shadow-md">
+        <div className="w-[90%] h-auto md:w-[38%] rounded-[4px] shadow-md">
           <img src={OfferImg1} alt="our offers" />
         </div>
       </div>
