@@ -33,37 +33,25 @@ const Footer = () => {
           <ul className="list-none">
             <li className="font-semibold">Quick Links</li>
             <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              <a href="/home" target="_blank" rel="noreferrer">
-                Home
-              </a>
+              <a href="/home">Home</a>
             </li>
             <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              <a href="/aboutus" target="_blank" rel="noreferrer">
-                About Us
-              </a>
+              <a href="/aboutus">About Us</a>
             </li>
             <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              <a href="/ourservices" target="_blank" rel="noreferrer">
-                Our Services
-              </a>
+              <a href="/ourservices">Our Services</a>
             </li>
             <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              <a href="/solutions" target="_blank" rel="noreferrer">
-                Solutions
-              </a>
+              <a href="/solutions">Solutions</a>
             </li>
             <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              <a href="/conatctus" target="_blank" rel="noreferrer">
-                Contact Us
-              </a>
+              <a href="/conatctus">Contact Us</a>
             </li>
           </ul>
           <ul className="list-none">
             <li className="font-semibold">Contact Details</li>
             <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              <a href="tel:+27 826808198" target="_blank" rel="noreferrer">
-                021 712 3390
-              </a>
+              <a href="tel:+27 826808198">021 712 3390</a>
             </li>
             <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a
