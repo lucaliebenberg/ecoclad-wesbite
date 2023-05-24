@@ -7,7 +7,7 @@ const Solutions = () => {
         <div className="flex flex-col mt-[5rem] pl-[3.3rem]">
           <h1 className="text-[48px] text-black font-semibold">Solutions</h1>
           {/* roof material */}
-          <div className="max-w-[460px]">
+          <div className="max-w-[460px] md:max-w-full">
             <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Roof Material Specification
             </h2>
@@ -18,7 +18,7 @@ const Solutions = () => {
               and the construction process for the Project.
             </p>
 
-            <div className="flex flex-col md:flex-row md:justify-evenly pr-12">
+            <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
                 <img
                   src="https://picsum.photos/520/320"
@@ -43,7 +43,7 @@ const Solutions = () => {
             </div>
           </div>
           {/* industrial roofing */}
-          <div className="max-w-[460px]">
+          <div className="max-w-[460px] md:max-w-full">
             <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Industrial Roofing Clients
             </h2>
@@ -63,7 +63,7 @@ const Solutions = () => {
                 of new roof coverings and insulation
               </li>
             </ul>
-            <p className="max-w-[460px] text-black text-[16px] md:text-[18]">
+            <p className="max-w-[460px] text-black text-[16px] md:text-[18] md:max-w-full">
               EcoClad will provide alternative transparent price based solutions
               for roofing, and cladding including insulation material,
               ventilation and rainwater distribution.
@@ -83,7 +83,7 @@ const Solutions = () => {
               First Aid Certificates, High-Level Training certificates and
               Scaffold Erection certifications.
             </p>
-            <div className="flex flex-col md:flex-row md:justify-evenly pr-12">
+            <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
                 <img
                   src="https://picsum.photos/520/320"
@@ -109,7 +109,7 @@ const Solutions = () => {
           </div>
 
           {/* commercial roofing */}
-          <div className="max-w-[460px]">
+          <div className="max-w-[460px] md:max-w-full">
             <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Commercial Roofing Clients
             </h2>
@@ -117,12 +117,12 @@ const Solutions = () => {
               Ecoclad specialises in providing roofing, cladding and insulation
               solutions for:
             </p>
-            <ul className="mb-[2rem] max-w-[460px] list-disc text-black">
+            <ul className="mb-[2rem] max-w-[460px] list-disc text-black md:max-w-full">
               <li className="mt-[1rem]">Office complexes</li>
               <li className="mt-[1rem]">Shopping Centres</li>
               <li className="mt-[1rem]">Other commercial complexes</li>
             </ul>
-            <p className="max-w-[460px] text-black text-[16px] md:text-[18]">
+            <p className="max-w-[460px] text-black text-[16px] md:text-[18] md:max-w-full">
               EcoClad will provide alternative transparent price based solutions
               for roofing, and cladding including insulation material,
               ventilation and rainwater distribution
@@ -143,7 +143,7 @@ const Solutions = () => {
               First Aid Certificates, High-Level Training certificates and
               Scaffold Erection certifications.
             </p>
-            <div className="flex flex-col md:flex-row md:justify-evenly pr-12">
+            <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
                 <img
                   src="https://picsum.photos/520/320"
@@ -169,7 +169,7 @@ const Solutions = () => {
           </div>
 
           {/* domestic roofing */}
-          <div className="max-w-[460px]">
+          <div className="max-w-[460px] md:max-w-full">
             <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Domestic Metal Roofing For House Owners
             </h2>
@@ -184,13 +184,13 @@ const Solutions = () => {
               installation requirements through the utilization of a specialist
               workforce and where possible focus on the following:
             </p>
-            <ul className="mb-[2rem] max-w-[460px] list-disc text-black">
+            <ul className="mb-[2rem] max-w-[460px] list-disc text-black md:max-w-full">
               <li className="mt-[1rem]">Thermal and energy efficiency</li>
               <li className="mt-[1rem]">
                 Integrated rainwater harvesting run-off management
               </li>
             </ul>
-            <p className="max-w-[460px] text-black text-[16px] md:text-[18]">
+            <p className="max-w-[460px] text-black text-[16px] md:text-[18] md:max-w-full">
               Quotations are free and fully transparent, allowing our clients an
               accurate view of the cost implications of the various roofing
               systems, materials and techniques proposed. This allows owners to
@@ -201,7 +201,7 @@ const Solutions = () => {
               Ecoclad Team will be available for service calls during the full
               guarantee period.
             </p>
-            <div className="flex flex-col md:flex-row md:justify-evenly pr-12">
+            <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
                 <img
                   src="https://picsum.photos/520/320"
@@ -227,7 +227,7 @@ const Solutions = () => {
           </div>
 
           {/* light engineering */}
-          <div className="max-w-[460px]">
+          <div className="max-w-[460px] md:max-w-full">
             <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Light Engineering
             </h2>
@@ -256,7 +256,7 @@ const Solutions = () => {
                 Integrated rainwater harvesting run-off management
               </li>
             </ul>
-            <div className="flex flex-col md:flex-row md:justify-evenly pr-12">
+            <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
                 <img
                   src="https://picsum.photos/520/320"
