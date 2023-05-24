@@ -8,7 +8,7 @@ const Solutions = () => {
           <h1 className="text-[48px] text-black font-semibold">Solutions</h1>
           {/* roof material */}
           <div className="max-w-[460px]">
-            <h2 className="text-[32px] text-black font-semibold">
+            <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Roof Material Specification
             </h2>
             <p className="text-[18px] text-black">
@@ -44,7 +44,7 @@ const Solutions = () => {
           </div>
           {/* industrial roofing */}
           <div className="max-w-[460px]">
-            <h2 className="text-[32px] text-black font-semibold">
+            <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Industrial Roofing Clients
             </h2>
             <p className="text-[18px] text-black">
@@ -110,7 +110,7 @@ const Solutions = () => {
 
           {/* commercial roofing */}
           <div className="max-w-[460px]">
-            <h2 className="text-[32px] text-black font-semibold">
+            <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Commercial Roofing Clients
             </h2>
             <p className="text-[18px] text-black">
@@ -170,7 +170,7 @@ const Solutions = () => {
 
           {/* domestic roofing */}
           <div className="max-w-[460px]">
-            <h2 className="text-[32px] text-black font-semibold">
+            <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Domestic Metal Roofing For House Owners
             </h2>
             <p className="text-[18px] text-black">
@@ -228,7 +228,7 @@ const Solutions = () => {
 
           {/* light engineering */}
           <div className="max-w-[460px]">
-            <h2 className="text-[32px] text-black font-semibold">
+            <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Light Engineering
             </h2>
             <p className="text-[18px] text-black">
