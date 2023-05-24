@@ -55,7 +55,8 @@ const ContactUs = () => {
   return (
     <>
       <div id="ContactUs" className="w-full h-auto bg-white" data-aos="fade-in">
-        <div className="flex flex-col mt-[5rem] pl-[3.3rem] md:flex-row md:justify-between">
+        {/* left */}
+        <div className="flex flex-col mt-[5rem] pl-[3.3rem]">
           <h1 className="text-[48px] text-black font-semibold">Contact Us</h1>
           <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[592px] mb-[2rem]">
             Our friendly team would love to hear from you
@@ -115,18 +116,19 @@ const ContactUs = () => {
           </div>
         </div>
 
+        {/* right */}
         <div className="flex flex-col w-full justify-start mt-[8rem] pt-0 p-[5rem] h-full md:flex-row md:justify-between lg:mt-auto lg:mb-auto">
           <div className="w-full flex flex-row mr-2 lg:mt-14 xl:mr-0 mb-12">
             <img
               src="https://picsum.photos/200"
               alt="Feature 1 icon"
-              className="h-[32px] w-[32px] mb-10 mr-6 rounded-md"
+              className="h-[32px] w-[32px] mb-10 mr-6 rounded-md md:mt-1.5"
             />
             <div className="flex flex-col justify-start">
-              <h2 className="text-[20px] md:text-[22px] text-black font-bold lg:text-[28px] justify-center text-left mb-4">
+              <h2 className="text-[20px] md:text-[22px] text-black font-bold lg:text-[28px] justify-center text-left md:text-left mb-4">
                 Give Us A Call
               </h2>
-              <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-left max-w-[277px]">
+              <p className="text-[13px] md:text-[14px] md:text-left lg:text-[18px] text-[#ABABAB] justify-center text-left max-w-[277px]">
                 <a href="tel:+27 826808198">021 712 3390</a>
               </p>
             </div>
@@ -135,13 +137,13 @@ const ContactUs = () => {
             <img
               src="https://picsum.photos/200"
               alt="Feature 1 icon"
-              className="h-[32px] w-[32px] mb-10 mr-6 rounded-md"
+              className="h-[32px] w-[32px] mb-10 mr-6 rounded-md md:mt-1.5"
             />
             <div className="flex flex-col justify-start">
               <h2 className="text-[20px] md:text-[22px] text-black font-bold lg:text-[28px] justify-center text-left mb-4">
                 Email Us
               </h2>
-              <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-left max-w-[277px]">
+              <p className="text-[13px] md:text-[14px] md:text-left lg:text-[18px] text-[#ABABAB] justify-center text-left max-w-[277px]">
                 <a
                   href="mailto:infoecoclad@gmail.com"
                   target="_blank"
@@ -156,13 +158,13 @@ const ContactUs = () => {
             <img
               src="https://picsum.photos/200"
               alt="Feature 1 icon"
-              className="h-[32px] w-[32px] mb-10 mr-6 rounded-md"
+              className="h-[32px] w-[32px] mb-10 mr-6 rounded-md md:mt-1.5"
             />
             <div className="flex flex-col justify-start">
               <h2 className="text-[20px] md:text-[22px] text-black font-bold lg:text-[28px] justify-center text-left mb-4">
                 Our Location
               </h2>
-              <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-left max-w-[320px]">
+              <p className="text-[13px] md:text-[14px] md:text-left lg:text-[18px] text-[#ABABAB] justify-center text-left max-w-[320px]">
                 <a
                   href="https://www.google.com/maps/dir//ecoclad/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x1dcc5b6f667555a1:0xdd8eca45857b3d06?sa=X&ved=2ahUKEwiYrNbOo43_AhXHa8AKHRw0CNIQ9Rd6BAg-EAU"
                   target="_blank"
