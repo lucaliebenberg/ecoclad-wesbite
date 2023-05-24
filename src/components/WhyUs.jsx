@@ -8,7 +8,7 @@ const WhyUs = () => {
       data-aos="fade-in"
     >
       <div className="flex flex-col">
-        <h1 className="text-[48px] text-black font-semibold">Why Us</h1>
+        <h1 className="text-[48px] text-black font-semibold mb-4">Why Us</h1>
       </div>
 
       <div className="flex flex-col md:flex-row md:justify-between md:flex-wrap gap-8 md:gap-12">
@@ -16,7 +16,7 @@ const WhyUs = () => {
           <div className="w-[90%] h-auto md:w-[45%] rounded-[4px] shadow-md">
             <img src={OfferImg1} alt="our offers" />
           </div>
-          <div className="pt-[6rem] max-w-[460px]">
+          <div className="pt-[2rem] pb-[3rem] max-w-[460px]">
             <h1 className="font-medium text-[1.6rem]">Corporate Clients</h1>
             <ul>
               <li>
@@ -40,7 +40,7 @@ const WhyUs = () => {
           <div className="w-[90%] h-auto md:w-[45%] rounded-[4px] shadow-md">
             <img src={OfferImg1} alt="our offers" />
           </div>
-          <div className="pt-[6rem] max-w-[460px]">
+          <div className="pt-[2rem] pb-[3rem] max-w-[460px]">
             <h1 className="font-medium text-[1.6rem]">
               Domestic Household Clients
             </h1>

@@ -37,7 +37,7 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="pl-[3.3rem] mt-[2rem] ]">
+        <div className="pl-[3.3rem] mt-[2rem]">
           <img src={AboutImg} alt="" height="51%" width="48%" />
         </div>
       </div>
