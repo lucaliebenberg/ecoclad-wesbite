@@ -17,6 +17,7 @@ const Navbar = () => {
           initial={{ x: "-200px" }}
           animate={{ x: 0 }}
           transition={{ duration: 1 }}
+          className="lg:ml-[4.5rem]"
         >
           <h1 className="text-[var(--primary-blue)]">
             <img
