@@ -11,13 +11,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-[60px] bg-white z-[-8] md:ml-[2rem]">
+    <div className="w-full h-[60px] bg-white z-[-8]">
       <div className="px-4 lg:px-14 mx-auto pl-[3.3rem] flex justify-between items-center h-full">
         <motion.div
           initial={{ x: "-200px" }}
           animate={{ x: 0 }}
           transition={{ duration: 1 }}
-          className="lg:ml-[4.5rem]"
+          className="lg:ml-[3rem]"
         >
           <h1 className="text-[var(--primary-blue)]">
             <img
