@@ -4,7 +4,7 @@ const WhyUs = () => {
   return (
     <div
       id="WhyUs"
-      className="w-full h-auto pl-[3.3rem] pt-[5rem] bg-white"
+      className="w-full h-auto pl-[3.3rem] pt-[5rem] bg-white md:ml-[3rem] md:mt-[5rem]"
       data-aos="fade-in"
     >
       <div className="flex flex-col">

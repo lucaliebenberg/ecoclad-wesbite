@@ -6,7 +6,7 @@ const AboutUs = () => {
     <>
       <div
         id="AboutUs"
-        className="w-full h-auto bg-white flex flex-col md:flex-row md:justify-between"
+        className="w-[100vw] mr-0 h-auto bg-white flex flex-col md:flex-row md:justify-between md:ml-[8rem]"
         data-aos="fade-in"
       >
         <div className="flex flex-col mt-[5rem] pl-[3.3rem]">
@@ -41,8 +41,14 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="pl-[3.3rem] mt-[2rem]">
-          <img src={AboutImg} alt="" height="51%" width="48%" />
+        <div className="pl-[3.3rem] mt-3 pr-0 mr-0 w-[50%] md:mt-[12rem]">
+          <img
+            src={AboutImg}
+            alt=""
+            height="51%"
+            width="48%"
+            className="hidden md:block mr-0 md:r-0 pr-0"
+          />
         </div>
       </div>
 
@@ -105,14 +111,14 @@ const AboutUs = () => {
 
       <div
         id="WhatWeOffer"
-        className="w-full h-auto bg-white"
+        className="w-full h-auto bg-white md:ml-[2rem]"
         data-aos="fade-in"
       >
         <div className="flex flex-col pl-[3.3rem] pt-[5rem] pb-[3rem] md:text-left">
-          <h1 className="text-[32px] md:text-[48px] text-black font-semibold pb-4">
+          <h1 className="text-[32px] md:text-[48px] text-black font-semibold pb-4 ">
             Our Comitted Team
           </h1>
-          <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[592px]">
+          <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[80%]">
             The EcoClad management team boasts over 30 years of practical
             industry experience. This is complemented by an equally strong
             design understanding. Not surprisingly, the team is exceptionally
@@ -134,16 +140,16 @@ const AboutUs = () => {
         </div>
 
         <div className="flex flex-col mt-[5rem] pl-[3.3rem]">
-          <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[592px] mb-[2rem]">
+          <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[80%] mb-[2rem]">
             Installations are carried out by a well-motivated, long-serving
             workforce who are proud of their achievements and have an enviable
             reputation for quality and craftsmanship.
           </p>
-          <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[592px] mb-[2rem]">
+          <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-full mb-[2rem]">
             EcoClad is committed to providing high-value services and solutions
             to Clients based on:
           </p>
-          <ul className="mb-[2rem] max-w-[460px] list-disc">
+          <ul className="mb-[2rem] max-w-[460px] md:max-w-[80%] list-disc">
             <li className="mt-[1rem]">
               Comprehensive Inspections and Reports outlining all viable
               alternatives with transparent pricing.

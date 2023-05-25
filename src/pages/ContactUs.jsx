@@ -66,7 +66,7 @@ const ContactUs = () => {
             <form
               ref={formRef}
               // onSubmit={sendEmail}
-              className="w-[90%] mt-12 flex flex-col gap-8 p-4 bg-[#CCC] rounded-lg"
+              className="w-[90%] mt-12 flex flex-col gap-8 p-4 bg-[#3A3A3C] rounded-lg"
             >
               <label className="flex flex-col">
                 <span className="text-white font-medium mb-4">Your Name</span>

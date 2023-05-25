@@ -2,7 +2,11 @@ import OfferImg1 from "../assets/img/landscape-img-1.jpeg";
 
 const WhatWeOffer = () => {
   return (
-    <div id="WhatWeOffer" className="w-full h-auto bg-white" data-aos="fade-in">
+    <div
+      id="WhatWeOffer"
+      className="w-full h-auto bg-white md:ml-[3rem]"
+      data-aos="fade-in"
+    >
       <div className="flex flex-col pl-[3.3rem] pt-[5rem] pb-[3rem]">
         <h1 className="text-[48px] text-black font-semibold">What We Offer</h1>
         <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[592px]">
