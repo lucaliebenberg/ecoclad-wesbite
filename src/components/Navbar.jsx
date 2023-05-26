@@ -35,7 +35,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#7A983D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Home
               </li>
             </motion.a>
@@ -45,7 +45,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.7 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#7A983D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 About Us
               </li>
             </motion.a>
@@ -55,7 +55,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#7A983D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Our Services
               </li>
             </motion.a>
@@ -65,7 +65,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.9 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#7A983D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Solutions
               </li>
             </motion.a>
@@ -75,7 +75,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#7A983D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Contact Us
               </li>
             </motion.a>
@@ -108,28 +108,28 @@ const Navbar = () => {
         >
           <ul>
             <a href="/">
-              <li className="text-2xl pt-10 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="text-2xl pt-10 hover:cursor-pointer hover:text-[#7A983D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 Home
               </li>
             </a>
 
             <a href="/aboutus">
-              <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#7A983D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 About Us
               </li>
             </a>
             <a href="/ourservices">
-              <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#7A983D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 Our Services
               </li>
             </a>
             <a href="/solutions">
-              <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#7A983D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 Solutions
               </li>
             </a>
             <a href="/contactus">
-              <li className="text-2xl pt-5 pb-10 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="text-2xl pt-5 pb-10 hover:cursor-pointer hover:text-[#7A983D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 Contact US
               </li>
             </a>

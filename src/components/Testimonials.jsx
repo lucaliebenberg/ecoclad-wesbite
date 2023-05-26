@@ -1,4 +1,4 @@
-import OfferImg1 from "../assets/img/landscape-img-1.jpeg";
+// import OfferImg1 from "../assets/img/landscape-img-1.jpeg";
 
 const Testimonials = () => {
   return (
@@ -14,9 +14,9 @@ const Testimonials = () => {
       </div>
 
       <div className="flex flex-col pl-[3.3rem] gap-8 md:gap-12">
-        <div className="w-[90%] h-[40%] md:w-[50vw] rounded-[4px] shadow-md md:ml-auto md:mr-auto md:mt-[3rem] md:mb-[3rem]">
-          <img src={OfferImg1} alt="our offers" className="rounded-lg" />
-        </div>
+        {/* <div className="w-[90%] h-[40%] md:w-[50vw] rounded-[4px] shadow-md md:ml-auto md:mr-auto md:mt-[3rem] md:mb-[3rem]">
+        </div> */}
+        IMAGE HERE
       </div>
     </div>
   );
