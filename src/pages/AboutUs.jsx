@@ -1,6 +1,10 @@
 import AboutImg from "../assets/img/portrait-img-1.jpeg";
 import Footer from "../components/Footer";
 
+import Team1 from "../assets/img/solution_specification.jpeg";
+import Team2 from "../assets/img/solution_design.jpeg";
+import Team3 from "../assets/img/consulting.jpeg";
+
 const AboutUs = () => {
   return (
     <>
@@ -52,8 +56,8 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="flex flex-col mt-[4rem] pt-0 p-[5rem] h-full md:flex-row md:justify-between lg:mt-auto lg:mb-auto">
-        <div className="flex flex-col mr-2 lg:mt-14 xl:mr-0">
+      <div className="flex flex-col mt-[4rem] pt-0 p-[5rem] h-full md:flex-row md:justify-between md:mt-[6rem] lg:mt-auto lg:mb-auto">
+        <div className="flex flex-col mr-2 md:mt-[4rem] lg:mt-14 xl:mr-0">
           <img
             src="https://picsum.photos/200"
             alt="Feature 1 icon"
@@ -129,13 +133,13 @@ const AboutUs = () => {
 
         <div className="flex flex-col md:flex-row md:justify-between md:w-[90%] pl-[3.3rem] md:flex-wrap gap-8 md:gap-12">
           <div className="w-[60%] h-auto md:w-[28%] md:h-[33%] rounded-[4px] shadow-md">
-            <img src="https://picsum.photos/700/500" alt="our ecoclad team" />
+            <img src={Team1} alt="our ecoclad team" />
           </div>
           <div className="w-[60%] h-auto md:w-[28%] md:h-[33%] rounded-[4px] shadow-md">
-            <img src="https://picsum.photos/700/500" alt="our ecoclad team" />
+            <img src={Team2} alt="our ecoclad team" />
           </div>
           <div className="w-[60%] h-auto md:w-[28%] md:h-[33%] rounded-[4px] shadow-md">
-            <img src="https://picsum.photos/700/500" alt="our ecoclad team" />
+            <img src={Team3} alt="our ecoclad team" />
           </div>
         </div>
 

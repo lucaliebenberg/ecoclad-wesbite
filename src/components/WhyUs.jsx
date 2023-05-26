@@ -1,4 +1,5 @@
-import OfferImg1 from "../assets/img/landscape-img-1.jpeg";
+import OfferImg1 from "../assets/img/Industrial-9.jpeg";
+import OfferImg2 from "../assets/img/Household-2.jpeg";
 
 const WhyUs = () => {
   return (
@@ -22,16 +23,16 @@ const WhyUs = () => {
             <h1 className="font-medium text-[1.6rem]">Corporate Clients</h1>
             <ul>
               <li>
-                We will provide a full initial Survey of your Premises - Free of
-                Charge
+                - We will provide a full initial Survey of your Premises - Free
+                of Charge
               </li>
               <li>
-                We will carry out 6 monthly inspections of your
+                - We will carry out 6 monthly inspections of your
                 Industrial/Commercial Premises – Free of Charge
               </li>
               <li>
-                We will provide a photographic survey of your roof with a fully
-                costed estimate of any problems – Free of Charge
+                - We will provide a photographic survey of your roof with a
+                fully costed estimate of any problems – Free of Charge
               </li>
               <li>Contact us for immediate action – Epping Industria based</li>
             </ul>
@@ -41,7 +42,7 @@ const WhyUs = () => {
         <div className="flex flex-col md:justify-between md:flex-wrap gap-8 md:gap-12">
           <div>
             <div className="w-[90%] h-auto md:w-[70%] rounded-[4px] shadow-md ">
-              <img src={OfferImg1} alt="our offers" className="" />
+              <img src={OfferImg2} alt="our offers" className="" />
             </div>
             <div className="pt-[2rem] pb-[3rem] max-w-[460px]">
               <h1 className="font-medium text-[1.6rem]">
@@ -49,11 +50,11 @@ const WhyUs = () => {
               </h1>
               <ul>
                 <li>
-                  We will provide a full initial Survey of your Premises - Free
-                  of Charge
+                  - We will provide a full initial Survey of your Premises -
+                  Free of Charge
                 </li>
                 <li>
-                  We will provide a photographic survey of your roof with a
+                  - We will provide a photographic survey of your roof with a
                   fully costed estimate of any problems – Free of Charge
                 </li>
               </ul>
