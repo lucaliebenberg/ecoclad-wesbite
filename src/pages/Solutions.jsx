@@ -1,5 +1,33 @@
 import Footer from "../components/Footer";
 
+import Roof1 from "../assets/img/landscape-img-1.jpeg";
+import Roof2 from "../assets/img/landscape-img-2.jpeg";
+
+import Industrial1 from "../assets/img/Industrial-1.jpeg";
+import Industrial2 from "../assets/img/Industrial-2.jpeg";
+import Industrial3 from "../assets/img/Industrial-3.jpeg";
+import Industrial4 from "../assets/img/Industrial-4.jpeg";
+import Industrial5 from "../assets/img/Industrial-5.jpeg";
+import Industrial6 from "../assets/img/Industrial-6.jpeg";
+import Industrial7 from "../assets/img/Industrial-7.jpeg";
+import Industrial8 from "../assets/img/Industrial-8.jpeg";
+import Industrial9 from "../assets/img/Industrial-9.jpeg";
+
+import Commercial1 from "../assets/img/Commercial-1.jpeg";
+import Commercial2 from "../assets/img/Commercial-2.jpeg";
+import Commercial3 from "../assets/img/Commercial-3.jpeg";
+import Commercial4 from "../assets/img/Commercial-4.jpeg";
+import Commercial5 from "../assets/img/Commercial-5.jpeg";
+import Commercial6 from "../assets/img/Commercial-6.jpeg";
+
+import Household1 from "../assets/img/Household-1.jpeg";
+import Household2 from "../assets/img/Household-2.jpeg";
+
+import Light1 from "../assets/img/Light-1.jpeg";
+import Light2 from "../assets/img/Light-2.jpeg";
+import Light3 from "../assets/img/Light-3.jpeg";
+import Light4 from "../assets/img/Light-4.jpeg";
+
 const Solutions = () => {
   return (
     <>
@@ -20,30 +48,15 @@ const Solutions = () => {
 
             <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
-                <img
-                  src="https://picsum.photos/520/320"
-                  alt=""
-                  className="rounded-[12px] h-auto"
-                />
+                <img src={Roof1} alt="" className="rounded-[4px] h-auto" />
               </div>
               <div className="mb-4 mt-8">
-                <img
-                  src="https://picsum.photos/520/320"
-                  alt=""
-                  className="rounded-[12px] h-auto"
-                />
-              </div>
-              <div className="mb-6 mt-8">
-                <img
-                  src="https://picsum.photos/520/320"
-                  alt=""
-                  className="rounded-[12px] h-auto"
-                />
+                <img src={Roof2} alt="" className="rounded-[4px] h-auto" />
               </div>
             </div>
           </div>
           {/* industrial roofing */}
-          <div className="max-w-[460px] md:max-w-full">
+          <div className="max-w-[460px] md:max-w-full md:mt-[2rem]">
             <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Industrial Roofing Clients
             </h2>
@@ -86,23 +99,65 @@ const Solutions = () => {
             <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
                 <img
-                  src="https://picsum.photos/520/320"
+                  src={Industrial1}
                   alt=""
-                  className="rounded-[12px] h-auto"
+                  className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
-                  src="https://picsum.photos/520/320"
+                  src={Industrial2}
                   alt=""
-                  className="rounded-[12px] h-auto"
+                  className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
-                  src="https://picsum.photos/520/320"
+                  src={Industrial3}
                   alt=""
-                  className="rounded-[12px] h-auto"
+                  className="rounded-[4px] h-auto"
+                />
+              </div>
+              <div className="mb-4 mt-8">
+                <img
+                  src={Industrial4}
+                  alt=""
+                  className="rounded-[4px] h-auto"
+                />
+              </div>
+              <div className="mb-4 mt-8">
+                <img
+                  src={Industrial5}
+                  alt=""
+                  className="rounded-[4px] h-auto"
+                />
+              </div>
+              <div className="mb-4 mt-8">
+                <img
+                  src={Industrial6}
+                  alt=""
+                  className="rounded-[4px] h-auto"
+                />
+              </div>
+              <div className="mb-4 mt-8">
+                <img
+                  src={Industrial7}
+                  alt=""
+                  className="rounded-[4px] h-auto"
+                />
+              </div>
+              <div className="mb-4 mt-8">
+                <img
+                  src={Industrial8}
+                  alt=""
+                  className="rounded-[4px] h-auto"
+                />
+              </div>
+              <div className="mb-4 mt-8">
+                <img
+                  src={Industrial9}
+                  alt=""
+                  className="rounded-[4px] h-auto"
                 />
               </div>
             </div>
@@ -146,23 +201,44 @@ const Solutions = () => {
             <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
                 <img
-                  src="https://picsum.photos/520/320"
+                  src={Commercial1}
                   alt=""
-                  className="rounded-[12px] h-auto"
+                  className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
-                  src="https://picsum.photos/520/320"
+                  src={Commercial2}
                   alt=""
-                  className="rounded-[12px] h-auto"
+                  className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
-                  src="https://picsum.photos/520/320"
+                  src={Commercial3}
                   alt=""
-                  className="rounded-[12px] h-auto"
+                  className="rounded-[4px] h-auto"
+                />
+              </div>
+              <div className="mb-4 mt-8">
+                <img
+                  src={Commercial4}
+                  alt=""
+                  className="rounded-[4px] h-auto"
+                />
+              </div>
+              <div className="mb-4 mt-8">
+                <img
+                  src={Commercial5}
+                  alt=""
+                  className="rounded-[4px] h-auto"
+                />
+              </div>
+              <div className="mb-4 mt-8">
+                <img
+                  src={Commercial6}
+                  alt=""
+                  className="rounded-[4px] h-auto"
                 />
               </div>
             </div>
@@ -203,25 +279,10 @@ const Solutions = () => {
             </p>
             <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
-                <img
-                  src="https://picsum.photos/520/320"
-                  alt=""
-                  className="rounded-[12px] h-auto"
-                />
+                <img src={Household1} alt="" className="rounded-[4px] h-auto" />
               </div>
               <div className="mb-4 mt-8">
-                <img
-                  src="https://picsum.photos/520/320"
-                  alt=""
-                  className="rounded-[12px] h-auto"
-                />
-              </div>
-              <div className="mb-4 mt-8">
-                <img
-                  src="https://picsum.photos/520/320"
-                  alt=""
-                  className="rounded-[12px] h-auto"
-                />
+                <img src={Household2} alt="" className="rounded-[4px] h-auto" />
               </div>
             </div>
           </div>
@@ -258,25 +319,16 @@ const Solutions = () => {
             </ul>
             <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
-                <img
-                  src="https://picsum.photos/520/320"
-                  alt=""
-                  className="rounded-[12px] h-auto"
-                />
+                <img src={Light1} alt="" className="rounded-[4px] h-auto" />
               </div>
               <div className="mb-4 mt-8">
-                <img
-                  src="https://picsum.photos/520/320"
-                  alt=""
-                  className="rounded-[12px] h-auto"
-                />
+                <img src={Light2} alt="" className="rounded-[4px] h-auto" />
               </div>
               <div className="mb-4 mt-8">
-                <img
-                  src="https://picsum.photos/520/320"
-                  alt=""
-                  className="rounded-[12px] h-auto"
-                />
+                <img src={Light3} alt="" className="rounded-[4px] h-auto" />
+              </div>
+              <div className="mb-4 mt-8">
+                <img src={Light4} alt="" className="rounded-[4px] h-auto" />
               </div>
             </div>
           </div>
