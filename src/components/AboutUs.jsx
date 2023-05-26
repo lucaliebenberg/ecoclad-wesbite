@@ -4,11 +4,13 @@ const AboutUs = () => {
   return (
     <div
       id="AboutUs"
-      className="w-full h-auto bg-white flex flex-col md:flex md:flex-row md:justify-between md:ml-[3rem] mt-auto mb-auto"
+      className="w-full h-auto bg-white flex flex-col md:flex md:flex-row md:justify-between md:ml-[3rem] md:mt-[1rem] mt-auto mb-auto"
       data-aos="fade-in"
     >
-      <div className="w-full flex flex-col mt-[5rem] pl-[3.3rem]">
-        <h1 className="text-[48px] text-black font-semibold">About Us</h1>
+      <div className="w-full flex flex-col mt-[3rem] pl-[3.3rem]">
+        <h1 className="text-[48px] text-black font-semibold mb-[2rem]">
+          About Us
+        </h1>
         <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[592px] mb-[2rem]">
           EcoClad provides high quality, eco-friendly roofing, cladding and
           insulation solutions to the industrial, commercial and domestic

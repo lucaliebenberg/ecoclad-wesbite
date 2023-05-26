@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div
       id="footer"
-      className="w-full h-auto bg-white pl-[3.3rem] pt-[5rem]"
+      className="w-full h-auto bg-white pl-[3.3rem] pt-[5rem] overflow-x-hidden"
       data-aos="fade-in"
     >
       <div className="flex flex-col md:flex-row md:justify-between">

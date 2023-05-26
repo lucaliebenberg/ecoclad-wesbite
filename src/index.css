@@ -1,6 +1,7 @@
 @tailwind base;
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 @tailwind components;
 @tailwind utilities;

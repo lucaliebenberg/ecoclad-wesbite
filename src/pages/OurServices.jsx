@@ -1,5 +1,12 @@
 import Footer from "../components/Footer";
 
+import Consulting from "../assets/img/consulting.jpeg";
+import SolutionDesign from "../assets/img/solution_design.jpeg";
+import SolutionSpec from "../assets/img/solution_specification.jpeg";
+import Procurement from "../assets/img/procurement.jpeg";
+import Installation from "../assets/img/installation.jpeg";
+import Maintenance from "../assets/img/maintenance.jpeg";
+
 const OurServices = () => {
   return (
     <>
@@ -23,8 +30,8 @@ const OurServices = () => {
           <div className="w-full flex flex-col ml-auto mr-auto pr-8 mb-14 md:max-w-[48%]">
             <div className="mb-3">
               <img
-                src="https://picsum.photos/550/320"
-                alt=""
+                src={Consulting}
+                alt="Consulting"
                 className="rounded-[12px] h-auto"
               />
             </div>
@@ -46,8 +53,8 @@ const OurServices = () => {
           <div className="w-full flex flex-col ml-auto mr-auto pr-8 mb-14 md:max-w-[48%]">
             <div className="mb-3">
               <img
-                src="https://picsum.photos/550/320"
-                alt=""
+                src={SolutionDesign}
+                alt="SolutionDesign"
                 className="rounded-[12px] h-auto"
               />
             </div>
@@ -65,8 +72,8 @@ const OurServices = () => {
           <div className="w-full flex flex-col ml-auto mr-auto pr-8 mb-14 md:max-w-[48%]">
             <div className="mb-3">
               <img
-                src="https://picsum.photos/550/320"
-                alt=""
+                src={SolutionSpec}
+                alt="SolutionSpec"
                 className="rounded-[12px] h-auto"
               />
             </div>
@@ -84,8 +91,8 @@ const OurServices = () => {
           <div className="w-full flex flex-col ml-auto mr-auto pr-8 mb-14 md:max-w-[48%]">
             <div className="mb-3">
               <img
-                src="https://picsum.photos/550/320"
-                alt=""
+                src={Procurement}
+                alt="Procurement"
                 className="rounded-[12px] h-auto"
               />
             </div>
@@ -103,8 +110,8 @@ const OurServices = () => {
           <div className="w-full flex flex-col ml-auto mr-auto pr-8 mb-14 md:max-w-[48%]">
             <div className="mb-3">
               <img
-                src="https://picsum.photos/550/320"
-                alt=""
+                src={Installation}
+                alt="Installation"
                 className="rounded-[12px] h-auto"
               />
             </div>
@@ -122,8 +129,8 @@ const OurServices = () => {
           <div className="w-full flex flex-col ml-auto mr-auto pr-8 mb-14 md:max-w-[48%]">
             <div className="mb-3">
               <img
-                src="https://picsum.photos/550/320"
-                alt=""
+                src={Maintenance}
+                alt="Maintenance"
                 className="rounded-[12px] h-auto"
               />
             </div>

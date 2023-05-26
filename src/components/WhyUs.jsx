@@ -4,11 +4,13 @@ const WhyUs = () => {
   return (
     <div
       id="WhyUs"
-      className="w-full h-auto pl-[3.3rem] pt-[5rem] bg-white md:ml-[3rem] md:mt-[5rem]"
+      className="w-full h-auto pl-[3.3rem] pt-[5rem] bg-white md:ml-[3rem] md:mt-[6rem] overflow-x-hidden"
       data-aos="fade-in"
     >
       <div className="flex flex-col">
-        <h1 className="text-[48px] text-black font-semibold mb-4">Why Us</h1>
+        <h1 className="text-[48px] text-black font-semibold mb-4 md:mb-[3rem]">
+          Why Us
+        </h1>
       </div>
 
       <div className="flex flex-col md:flex md:flex-row gap-8 md:gap-12">

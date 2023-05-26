@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <div
       id="Testimonials"
-      className="w-full h-auto bg-white pt-[5rem] md:mt-[5rem] md:mb-[3rem]"
+      className="w-full h-auto bg-white pt-[5rem] md:mt-[5rem] md:mb-[3rem] overflow-x-hidden"
       data-aos="fade-in"
     >
       <div className="flex flex-col pl-[3.3rem]">
