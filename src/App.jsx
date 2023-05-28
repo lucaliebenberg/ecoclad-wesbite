@@ -3,10 +3,10 @@ import Navbar from "../src/components/Navbar";
 
 // pages
 import Home from "./pages/Home";
-import AboutUs from "./pages/AboutUs";
-import OurServices from "./pages/OurServices";
-import Solutions from "./pages/Solutions";
-import ContactUs from "./pages/ContactUs";
+import AboutUs from "./pages/AboutUs.jsx";
+import OurServices from "./pages/OurServices.jsx";
+import Solutions from "./pages/Solutions.jsx";
+import ContactUs from "./pages/ContactUs.jsx";
 
 import "./index.css";
 

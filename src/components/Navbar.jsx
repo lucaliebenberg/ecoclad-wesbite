@@ -130,7 +130,7 @@ const Navbar = () => {
             </a>
             <a href="/contactus">
               <li className="text-2xl pt-5 pb-10 hover:cursor-pointer hover:text-[#7A983D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                Contact US
+                Contact Us
               </li>
             </a>
           </ul>
