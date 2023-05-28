@@ -1,5 +1,5 @@
 # Ecoclad
-Online Landing Page for Streetwyze.
+Online Web Page for Ecoclad.
 Live demo [here]().
 
 ## Table of Contents
