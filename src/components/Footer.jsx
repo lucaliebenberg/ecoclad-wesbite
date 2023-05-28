@@ -1,7 +1,7 @@
 import {
   AiFillFacebook,
-  AiFillInstagram,
-  AiFillLinkedin,
+  // AiFillInstagram,
+  // AiFillLinkedin,
 } from "react-icons/ai";
 
 import WhatsappIcon from "../assets/whatsapp-icon.png";
@@ -41,7 +41,7 @@ const Footer = () => {
           <ul className="list-none">
             <li className="font-semibold mb-5">Quick Links</li>
             <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              <a href="/home">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a href="/aboutus">About Us</a>
@@ -53,7 +53,7 @@ const Footer = () => {
               <a href="/solutions">Solutions</a>
             </li>
             <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
-              <a href="/conatctus">Contact Us</a>
+              <a href="/contactus">Contact Us</a>
             </li>
           </ul>
           <ul className="list-none md:ml-12">
@@ -104,22 +104,22 @@ const Footer = () => {
           >
             <AiFillTwitterSquare size={24} className="mr-3" />
           </a> */}
-          <a
+          {/* <a
             href="https://www.instagram.com"
             target={"_blank"}
             rel="noreferrer"
             className="text-[#CCC] font-semibold hover:text-[#DEE21B] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillInstagram size={24} className="mr-3" />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="https://www.linkedin.com"
             target={"_blank"}
             rel="noreferrer"
             className="text-[#CCC] font-semibold hover:text-[#DEE21B] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillLinkedin size={24} />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
