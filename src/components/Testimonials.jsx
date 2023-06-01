@@ -1,25 +1,83 @@
-// import OfferImg1 from "../assets/img/landscape-img-1.jpeg";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./Testimonial.css";
+import Avatar from "@mui/material/Avatar";
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
-const Testimonials = () => {
+const PreviousBtn = (props) => {
+  // console.log(props);
+  // eslint-disable-next-line react/prop-types
+  const { className, onClick } = props;
+  return (
+    <div className={className} onClick={onClick}>
+      <AiOutlineArrowLeft style={{ color: "gray", fontSize: "45px" }} />
+    </div>
+  );
+};
+const NextBtn = (props) => {
+  // eslint-disable-next-line react/prop-types
+  const { className, onClick } = props;
+  return (
+    <div className={className} onClick={onClick}>
+      <AiOutlineArrowRight style={{ color: "gray", fontSize: "45px" }} />
+    </div>
+  );
+};
+
+const Testimonial = () => {
   return (
     <div
-      id="Testimonials"
-      className="w-full h-auto bg-white pt-[5rem] md:mt-[5rem] md:mb-[3rem] overflow-x-hidden"
-      data-aos="fade-in"
+      className="testimonial"
+      style={{ display: "flex", justifyContent: "center", marginTop: 50 }}
     >
-      <div className="flex flex-col pl-[3.3rem]">
-        <h1 className="text-[48px] text-black font-semibold md:text-center">
-          Testimonials
-        </h1>
-      </div>
-
-      <div className="flex flex-col pl-[3.3rem] gap-8 md:gap-12">
-        {/* <div className="w-[90%] h-[40%] md:w-[50vw] rounded-[4px] shadow-md md:ml-auto md:mr-auto md:mt-[3rem] md:mb-[3rem]">
-        </div> */}
-        IMAGE HERE
+      <div style={{ width: "50%", textAlign: "center" }}>
+        <h1 style={{ marginBottom: 20 }}>TESTIMONIALS</h1>
+        <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
+          <Card img="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" />
+          <Card img="https://www.tutorialrepublic.com/examples/images/clients/2.jpg" />
+          <Card img="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" />
+        </Slider>
       </div>
     </div>
   );
 };
 
-export default Testimonials;
+// eslint-disable-next-line react/prop-types
+const Card = ({ img }) => {
+  return (
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column",
+        textAlign: "center",
+        color: "gray",
+      }}
+    >
+      <Avatar
+        imgProps={{ style: { borderRadius: "50%" } }}
+        src={img}
+        style={{
+          width: 120,
+          height: 120,
+          border: "1px solid lightgray",
+          padding: 7,
+          marginBottom: 20,
+        }}
+      />
+      <p>
+        Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia.
+        Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan
+        tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt
+        fringilla massa. Etiam hendrerit dolor eget rutrum
+      </p>
+      <p style={{ fontStyle: "italic", marginTop: 25 }}>
+        <span style={{ fontWeight: 500, color: "green" }}>PAULA WILSON</span> ,
+        Media Analyst
+      </p>
+    </div>
+  );
+};
+
+export default Testimonial;
