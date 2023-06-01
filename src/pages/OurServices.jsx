@@ -17,7 +17,7 @@ const OurServices = () => {
         className="w-full h-auto bg-white"
         data-aos="fade-in"
       >
-        <div className="flex flex-col mt-[5rem] pl-[3.3rem]">
+        <div className="flex flex-col mt-[5rem] pl-[3.3rem] md:pl-[4.1rem]">
           <h1 className="text-[32px] md:text-[48px] text-black font-bold pb-3">
             Our Services
           </h1>
