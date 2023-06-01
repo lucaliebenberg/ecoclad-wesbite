@@ -56,7 +56,11 @@ const ContactUs = () => {
   return (
     <>
       <Navbar />
-      <div id="ContactUs" className="w-full h-auto bg-white" data-aos="fade-in">
+      <div
+        id="ContactUs"
+        className="w-full h-auto bg-white md:pl-[3rem]"
+        data-aos="fade-in"
+      >
         {/* left */}
         <div className="flex flex-col mt-[5rem] pl-[3.3rem]">
           <h1 className="text-[48px] text-black font-semibold">Contact Us</h1>
@@ -119,8 +123,8 @@ const ContactUs = () => {
         </div>
 
         {/* right */}
-        <div className="flex flex-col w-full justify-start mt-[8rem] pt-0 p-[5rem] h-full md:flex-row md:justify-between lg:mt-auto lg:mb-auto">
-          <div className="w-full flex flex-row mr-2 lg:mt-14 xl:mr-0 mb-12">
+        <div className="flex flex-col w-full justify-start pt-0 p-[5rem] h-auto md:flex-row md:justify-between mt-[5rem]">
+          <div className="w-full flex flex-row mr-2  lg:mt-14 xl:mr-0 mb-12">
             <img
               src="https://picsum.photos/200"
               alt="Feature 1 icon"
