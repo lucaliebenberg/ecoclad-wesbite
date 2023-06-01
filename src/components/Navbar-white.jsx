@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-[60px] bg-[#F3F9FC] z-[-8] overflow-x-hidden">
+    <div className="w-full h-[60px] bg-white z-[-8] overflow-x-hidden">
       <div className="px-4 lg:px-14 mx-auto pl-[3.3rem] flex justify-between items-center h-full">
         <motion.div
           initial={{ x: "-200px" }}

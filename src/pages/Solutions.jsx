@@ -1,4 +1,5 @@
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar-white";
 
 import Roof1 from "../assets/img/landscape-img-1.jpeg";
 import Roof2 from "../assets/img/landscape-img-2.jpeg";
@@ -31,6 +32,7 @@ import Light4 from "../assets/img/Light-4.jpeg";
 const Solutions = () => {
   return (
     <>
+      <Navbar />
       <div id="Solutions" className="w-full h-auto bg-white" data-aos="fade-in">
         <div className="flex flex-col mt-[5rem] pl-[3.3rem]">
           <h1 className="text-[48px] text-black font-semibold">Solutions</h1>

@@ -17,17 +17,17 @@ const Hero = () => {
   return (
     <motion.div
       id="hero"
-      className="w-full h-full relative pb-5 md:pb-[11.1rem] bg-white overflow-x-hidden z-8"
+      className="w-full h-full relative pb-5 md:pb-[15.3rem] bg-white overflow-x-hidden overflow-y-hidden  z-8"
     >
       {/* background img */}
-      <div className="absolute w-full z-[8] overflow-y-hidden h-[80vh] bg-black opacity-85">
+      <div className="absolute w-full z-[8] overflow-y-hidden h-[100vh] bg-black opacity-85">
         <img
           src={HeroBg}
           alt="Ecoclad Roofing"
           className="w-full object-fit over"
         />
       </div>
-      <div className="w-full h-full flex flex-row justify-between align-middle pt-[6rem] lg:pt-[10rem]">
+      <div className="w-full h-full flex flex-row justify-between align-middle pt-[3rem] lg:pt-[10rem]">
         <motion.div className="flex flex-col pl-[3.3rem] lg:pl-[6rem] lg:pt-8 z-[20] mt-[1rem]">
           <motion.h1
             initial={{ x: "-200px" }}

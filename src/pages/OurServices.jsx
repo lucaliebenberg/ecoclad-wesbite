@@ -1,4 +1,5 @@
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar-white";
 
 import Consulting from "../assets/img/consulting.jpeg";
 import SolutionDesign from "../assets/img/solution_design.jpeg";
@@ -10,6 +11,7 @@ import Maintenance from "../assets/img/maintenance.jpeg";
 const OurServices = () => {
   return (
     <>
+      <Navbar />
       <div
         id="OurServices"
         className="w-full h-auto bg-white"

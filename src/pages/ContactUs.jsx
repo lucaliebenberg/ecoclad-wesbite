@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar-white";
 
 const ContactUs = () => {
   const formRef = useRef();
@@ -54,6 +55,7 @@ const ContactUs = () => {
 
   return (
     <>
+      <Navbar />
       <div id="ContactUs" className="w-full h-auto bg-white" data-aos="fade-in">
         {/* left */}
         <div className="flex flex-col mt-[5rem] pl-[3.3rem]">
@@ -66,32 +68,32 @@ const ContactUs = () => {
             <form
               ref={formRef}
               // onSubmit={sendEmail}
-              className="w-[90%] mt-12 flex flex-col gap-8 p-4 bg-[#3A3A3C] rounded-lg"
+              className="w-[90%] mt-12 flex flex-col gap-8 p-4 bg-white shadow-md rounded-lg"
             >
               <label className="flex flex-col">
-                <span className="text-white font-medium mb-4">Your Name</span>
+                <span className="text-black font-medium mb-4">Your Name</span>
                 <input
                   type="text"
                   name="name"
                   value={form.name}
                   onChange={handleChange}
                   placeholder="What's your good name?"
-                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border border-light-50 font-medium"
                 />
               </label>
               <label className="flex flex-col">
-                <span className="text-white font-medium mb-4">Your email</span>
+                <span className="text-black font-medium mb-4">Your email</span>
                 <input
                   type="email"
                   name="email"
                   value={form.email}
                   onChange={handleChange}
                   placeholder="What's your web address?"
-                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border border-light-50 font-medium"
                 />
               </label>
               <label className="flex flex-col">
-                <span className="text-white font-medium mb-4">
+                <span className="text-black font-medium mb-4">
                   Your Message
                 </span>
                 <textarea
@@ -100,14 +102,14 @@ const ContactUs = () => {
                   value={form.message}
                   onChange={handleChange}
                   placeholder="What you want to say?"
-                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border border-light-50 font-medium"
                 />
               </label>
 
               <button
                 type="submit"
                 value="Send"
-                className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+                className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-black font-bold shadow-md shadow-primary"
               >
                 {/* {loading ? "Sending..." : "Send"} */}
                 Send

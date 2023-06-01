@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <div
       id="AboutUs"
-      className="w-full h-auto bg-white flex flex-col md:flex md:flex-row md:justify-between md:ml-[3rem] md:mt-[1rem] mt-auto mb-auto"
+      className="w-full h-auto bg-white flex flex-col md:flex md:flex-row md:justify-between md:ml-[6rem] md:mt-[3rem] mt-auto mb-auto"
       data-aos="fade-in"
     >
       <div className="w-full flex flex-col mt-[3rem] pl-[3.3rem]">
