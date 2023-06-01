@@ -2,7 +2,7 @@ import { useEffect } from "react";
 // import Product1 from "../assets/product1.png";
 import { motion, useAnimation } from "framer-motion";
 
-// import HeroBg from "../assets/img/roof.jpg";
+import HeroBg from "../assets/img/roof.jpg";
 
 const Hero = () => {
   const controls = useAnimation();
@@ -17,18 +17,18 @@ const Hero = () => {
   return (
     <motion.div
       id="hero"
-      className="w-full h-full relative pb-5 md:pb-[9.1rem] bg-white overflow-x-hidden z-8"
+      className="w-full h-full relative pb-5 md:pb-[11.1rem] bg-white overflow-x-hidden z-8"
     >
       {/* background img */}
-      {/* <div className="absolute w-full z-[-1]">
+      <div className="absolute w-full z-[8] overflow-y-hidden h-[80vh] bg-black opacity-85">
         <img
           src={HeroBg}
           alt="Ecoclad Roofing"
-          className="w-full object-cover"
+          className="w-full object-fit over"
         />
-      </div> */}
-      <div className="z-[-1] w-full h-full flex flex-row justify-between align-middle pt-[6rem] lg:pt-[10rem]">
-        <motion.div className="flex flex-col pl-[3.3rem] lg:pl-[6rem] lg:pt-8">
+      </div>
+      <div className="w-full h-full flex flex-row justify-between align-middle pt-[6rem] lg:pt-[10rem]">
+        <motion.div className="flex flex-col pl-[3.3rem] lg:pl-[6rem] lg:pt-8 z-[20] mt-[1rem]">
           <motion.h1
             initial={{ x: "-200px" }}
             animate={{ x: 0 }}
@@ -41,7 +41,7 @@ const Hero = () => {
             initial={{ x: "-200px" }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
-            className="text-[18px] max-w-[360px] lg:max-w-[508px] text-black font-regular text-left leading-tight mb-8 md:text-[26px]"
+            className="text-[18px] max-w-[360px] lg:max-w-[508px] text-white font-regular text-left leading-tight mb-8 md:text-[26px]"
           >
             High Quality, Eco-Friendly Roofing, Cladding & Insulation Solutions
             To The Industrial, Commercial & Domestic Markets
@@ -52,7 +52,7 @@ const Hero = () => {
                 initial={{ x: "-200px" }}
                 animate={{ x: 0 }}
                 transition={{ duration: 0.8 }}
-                className="w-[115px] h-[41px] rounded-[5px] bg-[#7A983D] mr-3 border-white border-2 text-white  lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:scale-105"
+                className="w-[115px] h-[41px] rounded-[5px] bg-[#7A983D] mr-3 text-white  lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:scale-105"
               >
                 <a href="/aboutus">Learn More</a>
               </motion.button>

@@ -16,9 +16,10 @@ const WhyUs = () => {
 
       <div className="flex flex-col md:flex md:flex-row gap-8 md:gap-12">
         <div>
-          <div className="w-[90%] h-auto md:w-[70%] rounded-[4px] shadow-md">
+          <div className="w-[90%] h-auto md:w-[84%] rounded-[4px] shadow-md">
             <img src={OfferImg1} alt="our offers" />
           </div>
+
           <div className="pt-[2rem] pb-[3rem] max-w-[460px]">
             <h1 className="font-medium text-[1.6rem]">Corporate Clients</h1>
             <ul>
@@ -41,7 +42,7 @@ const WhyUs = () => {
 
         <div className="flex flex-col md:justify-between md:flex-wrap gap-8 md:gap-12">
           <div>
-            <div className="w-[90%] h-auto md:w-[70%] rounded-[4px] shadow-md ">
+            <div className="w-[90%] h-auto md:w-[60%] rounded-[4px] shadow-md ">
               <img src={OfferImg2} alt="our offers" className="" />
             </div>
             <div className="pt-[2rem] pb-[3rem] max-w-[460px]">
