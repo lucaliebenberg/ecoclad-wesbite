@@ -56,14 +56,14 @@ const AboutUs = () => {
       <div className="flex flex-col mt-[4rem] pt-0 p-[5rem] h-full md:flex-row md:justify-between md:mt-[8rem] lg:mt-auto lg:mb-auto">
         <div className="flex flex-col mr-2 md:mt-[5rem] lg:mt-14 xl:mr-0">
           <img
-            src="https://picsum.photos/200"
+            src="https://i.ibb.co/gj9dz2X/ecoclad-favicon-logo.png"
             alt="Feature 1 icon"
             className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
           />
-          <h2 className="text-[20px] md:text-[20px] text-[#56AC8B] font-bold justify-center text-center mb-4">
+          <h2 className="text-[16px] md:text-[20px] text-[#56AC8B] font-bold justify-center text-center mb-4">
             EcoClad Materials Specifications
           </h2>
-          <p className="ml-auto mr-auto text-[13px] md:text-[14px] md:text-left lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
+          <p className="ml-auto mr-auto text-[12px] md:text-[12px] md:text-left lg:text-[15px] text-[#ABABAB] justify-center text-center max-w-[277px]">
             EcoClad is an Independent Roofing Company with no affiliates to any
             specific Suppliers and is consequently able to offer the best and
             cost-effective materials tailormade to your specific contract and
@@ -74,14 +74,14 @@ const AboutUs = () => {
         <div>
           <div className="flex flex-col mt-14">
             <img
-              src="https://picsum.photos/200"
+              src="https://i.ibb.co/gj9dz2X/ecoclad-favicon-logo.png"
               alt="Feature 2 icon"
               className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
             />
-            <h2 className="text-[20px] md:text-[20px] text-[#56AC8B] font-bold justify-center text-center mb-4">
+            <h2 className="text-[16px] md:text-[20px] text-[#56AC8B] font-bold justify-center text-center mb-4">
               Professional Project Management
             </h2>
-            <p className="ml-auto mr-auto text-[13px] md:text-[14px] lg:text-[18px] md:text-left text-[#ABABAB] justify-center  max-w-[277px]">
+            <p className="ml-auto mr-auto text-[12px] md:text-[14px] lg:text-[15px] md:text-left text-[#ABABAB] justify-center  max-w-[277px]">
               All projects and installations are professionally planned and
               managed according to industry codes and best practices. Clients
               are an integral part of the Design and Build process and we
@@ -93,14 +93,14 @@ const AboutUs = () => {
         <div>
           <div className="flex flex-col mt-14">
             <img
-              src="https://picsum.photos/200"
+              src="https://i.ibb.co/gj9dz2X/ecoclad-favicon-logo.png"
               alt="Feature 3 icon"
               className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
             />
-            <h2 className="text-[20px] md:text-[20px] text-[#56AC8B] font-bold justify-center text-center mb-4">
+            <h2 className="text-[16px] md:text-[20px] text-[#56AC8B] font-bold justify-center text-center mb-4">
               Long Term Service Excellence
             </h2>
-            <p className="ml-auto mr-auto text-[13px] md:text-[14px] lg:text-[18px] md:text-left text-[#ABABAB] justify-center  max-w-[260px]">
+            <p className="ml-auto mr-auto text-[12px] md:text-[14px] lg:text-[15px] md:text-left text-[#ABABAB] justify-center  max-w-[260px]">
               EcoClad’s commitment to service excellence does not end with the
               completion of a project, and all installations carry a full
               Workmanship guarantee and Manufacturers Warranty, with all
