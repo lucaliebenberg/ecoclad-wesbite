@@ -22,10 +22,11 @@ const Footer = () => {
           </h2>
           <div className="">
             <a
-              href="https://whatsap.chat/"
+              // href="https://wa.me/0825723840?text=urlencodedtext"
+              href="https://wa.me/0825723840"
               target="_blank"
               rel="noreferrer"
-              alt=""
+              alt="Whatsapp chat"
               className="mt-auto mb-auto bg-gray-100 p-2 rounded-md w-[142px] text-center h-auto flex flex-row justify-between "
             >
               <img
