@@ -126,9 +126,9 @@ const ContactUs = () => {
         <div className="flex flex-col w-full justify-start pt-0 p-[5rem] h-auto md:flex-row md:justify-between mt-[5rem]">
           <div className="w-full flex flex-row mr-2  lg:mt-14 xl:mr-0 mb-12">
             <img
-              src="https://picsum.photos/200"
+              src="https://i.ibb.co/gj9dz2X/ecoclad-favicon-logo.png"
               alt="Feature 1 icon"
-              className="h-[32px] w-[32px] mb-10 mr-6 rounded-md md:mt-1.5"
+              className="h-[20px] w-[20px] mb-10 mr-6 rounded-md md:mt-2.5"
             />
             <div className="flex flex-col justify-start">
               <h2 className="text-[20px] md:text-[22px] text-black font-bold lg:text-[28px] justify-center text-left md:text-left mb-4">
@@ -141,9 +141,9 @@ const ContactUs = () => {
           </div>
           <div className="w-full flex flex-row mr-2 lg:mt-14 xl:mr-0 mb-12">
             <img
-              src="https://picsum.photos/200"
+              src="https://i.ibb.co/gj9dz2X/ecoclad-favicon-logo.png"
               alt="Feature 1 icon"
-              className="h-[32px] w-[32px] mb-10 mr-6 rounded-md md:mt-1.5"
+              className="h-[20px] w-[20px] mb-10 mr-6 rounded-md md:mt-2.5"
             />
             <div className="flex flex-col justify-start">
               <h2 className="text-[20px] md:text-[22px] text-black font-bold lg:text-[28px] justify-center text-left mb-4">
@@ -162,9 +162,9 @@ const ContactUs = () => {
           </div>
           <div className="w-full flex flex-row mr-2 lg:mt-14 xl:mr-0 mb-12">
             <img
-              src="https://picsum.photos/200"
+              src="https://i.ibb.co/gj9dz2X/ecoclad-favicon-logo.png"
               alt="Feature 1 icon"
-              className="h-[32px] w-[32px] mb-10 mr-6 rounded-md md:mt-1.5"
+              className="h-[20px] w-[20px] mb-10 mr-6 rounded-md md:mt-2.5"
             />
             <div className="flex flex-col justify-start">
               <h2 className="text-[20px] md:text-[22px] text-black font-bold lg:text-[28px] justify-center text-left mb-4">
