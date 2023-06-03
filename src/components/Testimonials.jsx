@@ -48,20 +48,23 @@ const Testimonial = () => {
           {/* Reviews */}
         </h1>
         <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
+          {/* the cards need relevant images for the reviews */}
           <Card
-            img="https://www.tutorialrepublic.com/examples/images/clients/2.jpg"
+            img="https://i.ibb.co/gj9dz2X/ecoclad-favicon-logo.png"
             paragraph="Ecoclad Solutions has undertaken various projects for this Practice over the last few years. We have found the service provided by Ecoclad Solutions and David Petrie and his team to be extremely professional and to incorporate a high level of extensive experience and skill"
             name="Neville Adler"
             title="Adler Price Architects CC"
           />
+          {/* the cards need relevant images for the reviews */}
           <Card
-            img="https://www.tutorialrepublic.com/examples/images/clients/2.jpg"
+            img="https://i.ibb.co/gj9dz2X/ecoclad-favicon-logo.png"
             paragraph="From pricing the contract to carrying out work the as well as the final account, all stages were handled professionally with as little disruption to our Tenants as was possible. I would recommend Ecoclad to any owner who is intending to carry out a similar operation to their buildings "
             name="Brian Brice"
             title="M/Partner"
           />
+          {/* the cards need relevant images for the reviews */}
           <Card
-            img="https://www.tutorialrepublic.com/examples/images/clients/3.jpg"
+            img="https://i.ibb.co/gj9dz2X/ecoclad-favicon-logo.png"
             paragraph="I want to take a minute and commend you and your company for the service you are delivering here at Iziko. I must say that your whole teams attitude to the works, project and my construction staff can only be described as positive and pragmatic. Please applaud your staff, and I hope that we may complete several more projects with a firm such as yourselves."
             name="Wayne Frazer"
             title="Site Agent"
@@ -88,9 +91,9 @@ const Card = ({ img, paragraph, name, title }) => {
         imgProps={{ style: { borderRadius: "50%" } }}
         src={img}
         style={{
-          width: 120,
-          height: 120,
-          border: "1px solid lightgray",
+          width: 60,
+          height: 60,
+          border: "none",
           padding: 7,
           marginBottom: 20,
         }}
