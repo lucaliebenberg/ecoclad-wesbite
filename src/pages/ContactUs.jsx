@@ -81,8 +81,8 @@ const ContactUs = () => {
                   name="name"
                   value={form.name}
                   onChange={handleChange}
-                  placeholder="What's your good name?"
-                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border border-light-50 font-medium"
+                  placeholder="What's your full name?"
+                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border border-light-50 font-light"
                 />
               </label>
               <label className="flex flex-col">
@@ -92,8 +92,8 @@ const ContactUs = () => {
                   name="email"
                   value={form.email}
                   onChange={handleChange}
-                  placeholder="What's your web address?"
-                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border border-light-50 font-medium"
+                  placeholder="What's your email address?"
+                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border border-light-50 font-light"
                 />
               </label>
               <label className="flex flex-col">
@@ -105,15 +105,15 @@ const ContactUs = () => {
                   name="message"
                   value={form.message}
                   onChange={handleChange}
-                  placeholder="What you want to say?"
-                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border border-light-50 font-medium"
+                  placeholder="Enter your message..."
+                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border border-light-50 font-light"
                 />
               </label>
 
               <button
                 type="submit"
                 value="Send"
-                className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-black font-bold shadow-md shadow-primary"
+                className="bg-[tertiary] py-3 px-8 rounded-xl outline-none w-fit text-black font-medium shadow-md shadow-primary hover:bg-[#659F19] hover:text-white duration-300 ease-in-out transition-all"
               >
                 {/* {loading ? "Sending..." : "Send"} */}
                 Send
