@@ -85,7 +85,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-row justify-between align-middle pt-[6rem] pb-8 text-[#CCC]">
-        <p className="text-[12px] pt-1 ml-4 lg:ml-10">
+        <p className="text-[12px] pt-1 ml-1">
           &copy; 2023 ECOClad. All Rights Reserved.
         </p>
         <div className="flex flex-row mr-4 lg:mr-8">
@@ -97,30 +97,6 @@ const Footer = () => {
           >
             <AiFillFacebook size={24} className="mr-3" />
           </a>
-          {/* <a
-            href="https://www.twitter.com"
-            target={"_blank"}
-            rel="noreferrer"
-            className="text-[#CCC] font-semibold hover:text-[#DEE21B] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
-          >
-            <AiFillTwitterSquare size={24} className="mr-3" />
-          </a> */}
-          {/* <a
-            href="https://www.instagram.com"
-            target={"_blank"}
-            rel="noreferrer"
-            className="text-[#CCC] font-semibold hover:text-[#DEE21B] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
-          >
-            <AiFillInstagram size={24} className="mr-3" />
-          </a> */}
-          {/* <a
-            href="https://www.linkedin.com"
-            target={"_blank"}
-            rel="noreferrer"
-            className="text-[#CCC] font-semibold hover:text-[#DEE21B] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
-          >
-            <AiFillLinkedin size={24} />
-          </a> */}
         </div>
       </div>
     </div>
