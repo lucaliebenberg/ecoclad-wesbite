@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { motion } from "framer-motion";
 
-import Onesheet from "../assets/logo.svg";
+import Ecoclad from "../assets/logo.svg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -19,10 +19,10 @@ const Navbar = () => {
           transition={{ duration: 1 }}
           className="lg:ml-[3rem]"
         >
-          <h1 className="text-[var(--primary-blue)]">
+          <h1 className="">
             <img
-              src={Onesheet}
-              alt="Onesheet Logo"
+              src={Ecoclad}
+              alt="Ecoclad Logo"
               className="w-[140px] hover:cursor-pointer p-0 xl:p-0"
             />
           </h1>
@@ -35,7 +35,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#7A983D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#2B2828] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Home
               </li>
             </motion.a>
@@ -45,7 +45,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.7 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#7A983D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#2B2828] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 About Us
               </li>
             </motion.a>
@@ -55,7 +55,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#7A983D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#2B2828] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Our Services
               </li>
             </motion.a>
@@ -65,7 +65,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.9 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#7A983D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#2B2828] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Solutions
               </li>
             </motion.a>
@@ -75,7 +75,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#7A983D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#2B2828] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Contact Us
               </li>
             </motion.a>
@@ -91,9 +91,9 @@ const Navbar = () => {
           onClick={handleNav}
         >
           {nav ? (
-            <AiOutlineClose size={28} className="text-gray" />
+            <AiOutlineClose size={28} className="text-[#2B2828]" />
           ) : (
-            <AiOutlineMenu size={28} className="text-gray" />
+            <AiOutlineMenu size={28} className="text-[#2B2828]" />
           )}
         </motion.div>
 
