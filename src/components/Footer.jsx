@@ -22,8 +22,8 @@ const Footer = () => {
           </h2>
           <div className="">
             <a
-              // href="https://wa.me/0825723840?text=urlencodedtext"
-              href="https://wa.me/0825723840"
+              // href="https://web.whatsapp.com/send?phone=+27825723840&text=urlencodedtext"
+              href="https://web.whatsapp.com/send?phone=+27825723840&text="
               target="_blank"
               rel="noreferrer"
               alt="Whatsapp chat"
