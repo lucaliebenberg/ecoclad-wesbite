@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-row justify-between align-middle pt-[6rem] pb-8 text-[#CCC]">
+      <div className="flex flex-row justify-between align-middle pt-[6rem] pb-4 text-[#CCC]">
         <p className="text-[12px] pt-1 ml-1">
           &copy; 2023 ECOClad. All Rights Reserved.
         </p>
