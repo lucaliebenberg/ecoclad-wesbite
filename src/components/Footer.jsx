@@ -27,7 +27,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
               alt="Whatsapp chat"
-              className="mt-auto mb-auto bg-gray-100 p-2 rounded-md w-[142px] text-center h-auto flex flex-row justify-between "
+              className="mt-auto mb-auto bg-white shadow-md p-2 rounded-md w-[142px] text-center h-auto flex flex-row justify-between border border-gray-50 hover:border-none hover:cursor-pointer hover:bg-[#659F19] hover:text-white duration-200 ease-in-out transition-all"
             >
               <img
                 src={WhatsappIcon}
