@@ -22,12 +22,13 @@ const Footer = () => {
           </h2>
           <div className="">
             <a
+              // if predefined text is needed when chat is started
               // href="https://web.whatsapp.com/send?phone=+27825723840&text=urlencodedtext"
               href="https://web.whatsapp.com/send?phone=+27825723840&text="
               target="_blank"
               rel="noreferrer"
               alt="Whatsapp chat"
-              className="mt-auto mb-auto bg-white shadow-md p-2 rounded-md w-[142px] text-center h-auto flex flex-row justify-between border border-gray-50 hover:border-none hover:cursor-pointer hover:bg-[#659F19] hover:text-white duration-200 ease-in-out transition-all"
+              className="mt-auto mb-auto bg-white shadow-md p-2 rounded-md w-[142px] text-center h-auto flex flex-row justify-between border border-gray-50 hover:border-none hover:cursor-pointer hover:bg-[#659F19] hover:text-white duration-300 ease-in-out transition-all"
             >
               <img
                 src={WhatsappIcon}
@@ -59,10 +60,10 @@ const Footer = () => {
           </ul>
           <ul className="list-none md:ml-12">
             <li className="font-semibold mb-5">Contact Details</li>
-            <li className="mb-2 text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
+            <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a href="tel:+27 826808198">021 712 3390</a>
             </li>
-            <li className="mb-2 text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out">
+            <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a
                 href="mailto:infoecoclad@gmail.com"
                 target="_blank"
@@ -71,7 +72,7 @@ const Footer = () => {
                 info@ecoclad.co.za
               </a>
             </li>
-            <li className="text-gray-600 hover:text-[#DEE21B] hover:cursor-pointer duration-200 transition-all ease-in-out md:max-w-[80%]">
+            <li className="text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out md:max-w-[80%]">
               <a
                 href="https://www.google.com/maps/dir//ecoclad/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x1dcc5b6f667555a1:0xdd8eca45857b3d06?sa=X&ved=2ahUKEwiYrNbOo43_AhXHa8AKHRw0CNIQ9Rd6BAg-EAU"
                 target="_blank"
