@@ -16,14 +16,12 @@ const Footer = () => {
     >
       <div className="flex flex-col md:flex-row md:justify-between">
         <div className="flex flex-col justify-start">
-          <img src={Onesheet} alt="" width="180px" />
+          <img src={Onesheet} alt="Ecoclad logo" width="180px" />
           <h2 className="max-w-[80vw] md:max-w-[70%] font-semibold mt-5 mb-5">
             Want to resolve some questions you might have?
           </h2>
           <div className="">
             <a
-              // if predefined text is needed when chat is started
-              // href="https://web.whatsapp.com/send?phone=+27825723840&text=urlencodedtext"
               href="https://web.whatsapp.com/send?phone=+27825723840&text="
               target="_blank"
               rel="noreferrer"
@@ -63,7 +61,7 @@ const Footer = () => {
             <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
               <a href="tel:+27 826808198">021 712 3390</a>
             </li>
-            <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out">
+            <li className="mb-2 text-gray-600 hover:text-[#475D2A] hover:cursor-pointer duration-200 transition-all ease-in-out text-underline">
               <a
                 href="mailto:infoecoclad@gmail.com"
                 target="_blank"
@@ -92,7 +90,7 @@ const Footer = () => {
         <div className="flex flex-row mr-4 lg:mr-8">
           <a
             href="https://www.facebook.com/Ecoclad.co.za?notif_id=1684522769639268&notif_t=page_user_activity&ref=notif"
-            target={"_blank"}
+            target="_blank"
             rel="noreferrer"
             className="text-[#CCC] font-semibold hover:text-[#DEE21B] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
