@@ -29,18 +29,23 @@ const Testimonial = () => {
   return (
     <div
       className="testimonial"
-      style={{ display: "flex", justifyContent: "center", marginTop: 50 }}
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        marginTop: "8rem",
+        marginBottom: "6rem",
+      }}
     >
-      <div style={{ width: "50%", textAlign: "center", marginTop: "1rem" }}>
+      <div style={{ width: "50%", textAlign: "center" }}>
         <h1
           style={{
             marginBottom: 20,
-            fontFamily: "sans-serif",
-            fontSize: "1.2rem",
+            fontFamily: "Arial",
+            fontSize: "24px",
             fontWeight: "medium",
           }}
         >
-          TESTIMONIALS
+          {/* Reviews */}
         </h1>
         <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
           <Card
