@@ -33,7 +33,7 @@ const Hero = () => {
             initial={{ x: "-200px" }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
-            className="text-[40px]  lg:max-w-[508px] text-black font-bold text-left leading-tight mb-8 lg:text-[52px]"
+            className="text-[40px]  lg:max-w-[508px] text-[#3A3A3C] font-bold text-left leading-tight mb-8 lg:text-[52px]"
           >
             Roofing Solutions
           </motion.h1>
