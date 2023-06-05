@@ -21,7 +21,7 @@ const OurServices = () => {
           <h1 className="text-[32px] md:text-[48px] text-black font-bold pb-3">
             Our Services
           </h1>
-          <p className="w-full text-black text-[16px] md:text-[18px] max-w-[460px] md:max-w-[592px] mb-[2rem]">
+          <p className="w-full text-black text-[16px] md:text-[18px] max-w-[460px] md:max-w-[80vw] mb-[2rem]">
             Typically, all of the below are seamlessly integrated into a single,
             unified EcoClad service. However, should it be required, each
             component can be accessed as a separate service.
