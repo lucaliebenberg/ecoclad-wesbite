@@ -92,7 +92,7 @@ const Footer = () => {
             href="https://www.facebook.com/Ecoclad.co.za?notif_id=1684522769639268&notif_t=page_user_activity&ref=notif"
             target="_blank"
             rel="noreferrer"
-            className="text-[#CCC] font-semibold hover:text-[#DEE21B] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+            className="text-[#CCC] font-semibold hover:text-[#475D2A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillFacebook size={24} className="mr-[3rem]" />
           </a>
