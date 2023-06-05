@@ -50,10 +50,18 @@ const Solutions = () => {
 
             <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
-                <img src={Roof1} alt="" className="rounded-[4px] h-auto" />
+                <img
+                  src={Roof1}
+                  alt="Ecoclad solutions image"
+                  className="rounded-[4px] h-auto"
+                />
               </div>
               <div className="mb-4 mt-8">
-                <img src={Roof2} alt="" className="rounded-[4px] h-auto" />
+                <img
+                  src={Roof2}
+                  alt="Ecoclad solutions image"
+                  className="rounded-[4px] h-auto"
+                />
               </div>
             </div>
           </div>
@@ -62,6 +70,7 @@ const Solutions = () => {
             <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Industrial Roofing Clients
             </h2>
+            <br />
             <p className="text-[18px] text-black">
               Ecoclad specialises in the installation of roofing, cladding and
               insulation solutions for industrial structures such as warehouses,
@@ -102,63 +111,63 @@ const Solutions = () => {
               <div className="mb-4 mt-8">
                 <img
                   src={Industrial1}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Industrial2}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Industrial3}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Industrial4}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Industrial5}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Industrial6}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Industrial7}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Industrial8}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Industrial9}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
@@ -170,6 +179,7 @@ const Solutions = () => {
             <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Commercial Roofing Clients
             </h2>
+            <br />
             <p className="text-[18px] text-black">
               Ecoclad specialises in providing roofing, cladding and insulation
               solutions for:
@@ -204,42 +214,42 @@ const Solutions = () => {
               <div className="mb-4 mt-8">
                 <img
                   src={Commercial1}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Commercial2}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Commercial3}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Commercial4}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Commercial5}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
               <div className="mb-4 mt-8">
                 <img
                   src={Commercial6}
-                  alt=""
+                  alt="Ecoclad solutions image"
                   className="rounded-[4px] h-auto"
                 />
               </div>
@@ -251,6 +261,7 @@ const Solutions = () => {
             <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Domestic Metal Roofing For House Owners
             </h2>
+            <br />
             <p className="text-[18px] text-black">
               Ecoclad provides new and existing homeowners with the same quality
               of service as that provided to larger clients and will ensure that
@@ -281,10 +292,18 @@ const Solutions = () => {
             </p>
             <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
-                <img src={Household1} alt="" className="rounded-[4px] h-auto" />
+                <img
+                  src={Household1}
+                  alt="Ecoclad solutions image"
+                  className="rounded-[4px] h-auto"
+                />
               </div>
               <div className="mb-4 mt-8">
-                <img src={Household2} alt="" className="rounded-[4px] h-auto" />
+                <img
+                  src={Household2}
+                  alt="Ecoclad solutions image"
+                  className="rounded-[4px] h-auto"
+                />
               </div>
             </div>
           </div>
@@ -294,6 +313,7 @@ const Solutions = () => {
             <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Light Engineering
             </h2>
+            <br />
             <p className="text-[18px] text-black">
               Light Sheet-Metal Fabrication & Manufacture
             </p>
@@ -321,16 +341,32 @@ const Solutions = () => {
             </ul>
             <div className="flex flex-col md:flex-row md:justify-evenly pr-12 gap-6">
               <div className="mb-4 mt-8">
-                <img src={Light1} alt="" className="rounded-[4px] h-auto" />
+                <img
+                  src={Light1}
+                  alt="Ecoclad solutions image"
+                  className="rounded-[4px] h-auto"
+                />
               </div>
               <div className="mb-4 mt-8">
-                <img src={Light2} alt="" className="rounded-[4px] h-auto" />
+                <img
+                  src={Light2}
+                  alt="Ecoclad solutions image"
+                  className="rounded-[4px] h-auto"
+                />
               </div>
               <div className="mb-4 mt-8">
-                <img src={Light3} alt="" className="rounded-[4px] h-auto" />
+                <img
+                  src={Light3}
+                  alt="Ecoclad solutions image"
+                  className="rounded-[4px] h-auto"
+                />
               </div>
               <div className="mb-4 mt-8">
-                <img src={Light4} alt="" className="rounded-[4px] h-auto" />
+                <img
+                  src={Light4}
+                  alt="Ecoclad solutions image"
+                  className="rounded-[4px] h-auto"
+                />
               </div>
             </div>
           </div>
