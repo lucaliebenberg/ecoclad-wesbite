@@ -82,7 +82,7 @@ const ContactUs = () => {
                   value={form.name}
                   onChange={handleChange}
                   placeholder="What's your full name?"
-                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border border-light-50 font-light"
+                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border border-light-50 font-light"
                 />
               </label>
               <label className="flex flex-col">
@@ -93,7 +93,7 @@ const ContactUs = () => {
                   value={form.email}
                   onChange={handleChange}
                   placeholder="What's your email address?"
-                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border border-light-50 font-light"
+                  className="bg-tertiary py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border border-light-50 font-light"
                 />
               </label>
               <label className="flex flex-col">
