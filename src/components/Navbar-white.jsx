@@ -19,13 +19,13 @@ const Navbar = () => {
           transition={{ duration: 1 }}
           className="lg:ml-[3rem]"
         >
-          <h1 className="">
+          <a href="/" className="">
             <img
               src={Ecoclad}
               alt="Ecoclad Logo"
               className="w-[140px] hover:cursor-pointer p-0 xl:p-0"
             />
-          </h1>
+          </a>
         </motion.div>
         <div className="hidden md:flex">
           <ul className="flex text-black items-center">
