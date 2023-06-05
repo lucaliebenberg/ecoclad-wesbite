@@ -22,6 +22,7 @@ const WhyUs = () => {
 
           <div className="pt-[2rem] pb-[3rem] max-w-[460px]">
             <h1 className="font-medium text-[1.6rem]">Corporate Clients</h1>
+            <br />
             <ul>
               <li>
                 - We will provide a full initial Survey of your Premises - Free
@@ -35,7 +36,6 @@ const WhyUs = () => {
                 - We will provide a photographic survey of your roof with a
                 fully costed estimate of any problems – Free of Charge
               </li>
-              <li>Contact us for immediate action – Epping Industria based</li>
             </ul>
           </div>
         </div>
@@ -49,6 +49,7 @@ const WhyUs = () => {
               <h1 className="font-medium text-[1.6rem]">
                 Domestic Household Clients
               </h1>
+              <br />
               <ul>
                 <li>
                   - We will provide a full initial Survey of your Premises -

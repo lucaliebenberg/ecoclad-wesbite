@@ -14,7 +14,7 @@ const WhatWeOffer = () => {
     >
       <div className="flex flex-col pl-[3.3rem] pt-[5rem] pb-[3rem]">
         <h1 className="text-[48px] text-black font-semibold ">What We Offer</h1>
-        <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[592px]">
+        <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[80vw]">
           Select a service to find out more about it or visit the services page
           to see more!
         </p>
