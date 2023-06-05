@@ -41,6 +41,7 @@ const Solutions = () => {
             <h2 className="text-[26px] mt-10 md:text-[32px] text-black font-semibold">
               Roof Material Specification
             </h2>
+            <br />
             <p className="text-[18px] text-black">
               Based on an approved design – whether created by ourselves or a
               third party consultant, EcoClad will draw up a full project plan
@@ -94,15 +95,15 @@ const Solutions = () => {
               <br />
               All EcoClad industrial installations are formally guaranteed in
               terms of products and workmanship and are backed up with a
-              Workmanship guarantee on completion <br />
+              Workmanship guarantee on completion <br /> <br />
               We have a fully tooled Sheet Metal Workshop where we manufacture
               Flashings, Louvres, Ventilators and Sheet Metal Gutters these are
               purpose made, welded and tailored to individual site requirements.{" "}
-              <br />
+              <br /> <br />
               We adhere to all statutory OHS requirements and have a dedicated
               professional OHS Advisor who visits sites weekly and provides Risk
               Assessments and Work Plans for all contracts.
-              <br />
+              <br /> <br />
               All our staff is regularly checked for Medical conformity, we have
               First Aid Certificates, High-Level Training certificates and
               Scaffold Erection certifications.
@@ -196,16 +197,16 @@ const Solutions = () => {
               <br />
               All EcoClad installations are formally guaranteed in terms of
               products and workmanship and are backed up with a Workmanship
-              guarantee on completion
-              <br />
+              guarantee on completion.
+              <br /> <br />
               We have a fully tooled Sheet Metal Workshop where we manufacture
               Flashings, Louvres, Ventilators and Sheet Metal Gutters these are
               purpose made, welded and tailored to individual site requirements.
-              <br />
+              <br /> <br />
               We adhere to all statutory OHS requirements and have a dedicated
               professional OHS Advisor who visits sites weekly and provides Risk
               Assessments and Work Plans for all contracts.
-              <br />
+              <br /> <br />
               All our staff is regularly checked for Medical conformity, we have
               First Aid Certificates, High-Level Training certificates and
               Scaffold Erection certifications.
@@ -268,6 +269,7 @@ const Solutions = () => {
               the completed installations are fully guaranteed and serviced for
               the duration of the warranty.
             </p>
+            <br />
             <p className="text-[18px] text-black">
               Our household services cover all new or replacement roofing
               installation requirements through the utilization of a specialist
@@ -284,7 +286,8 @@ const Solutions = () => {
               accurate view of the cost implications of the various roofing
               systems, materials and techniques proposed. This allows owners to
               make the best decisions from both a long and short term
-              perspective. <br />
+              perspective.
+              <br /> <br />
               Full Quality Assured Workmanship and Manufacturers warranties will
               be provided to Clients on completion of the installation and the
               Ecoclad Team will be available for service calls during the full
