@@ -116,10 +116,10 @@ const AboutUs = () => {
         data-aos="fade-in"
       >
         <div className="flex flex-col pl-[3.3rem] pt-[5rem] pb-[3rem] md:text-left">
-          <h1 className="text-[32px] md:text-[48px] text-black font-semibold pb-4 ">
+          <h1 className="text-[32px] md:text-[36px] text-black font-semibold pb-4 ">
             Our Comitted Team
           </h1>
-          <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-[80%]">
+          <p className="w-full text-black text-[16px] max-w-[460px] md:max-w-[85%]">
             The EcoClad management team boasts over 30 years of practical
             industry experience. This is complemented by an equally strong
             design understanding. Not surprisingly, the team is exceptionally

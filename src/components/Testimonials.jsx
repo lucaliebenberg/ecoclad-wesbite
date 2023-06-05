@@ -34,6 +34,7 @@ const Testimonial = () => {
         justifyContent: "center",
         marginTop: "8rem",
         marginBottom: "6rem",
+        backgroundColor: "#FCFCFCF",
       }}
     >
       <div style={{ width: "50%", textAlign: "center" }}>
@@ -91,8 +92,8 @@ const Card = ({ img, paragraph, name, title }) => {
         imgProps={{ style: { borderRadius: "50%" } }}
         src={img}
         style={{
-          width: 60,
-          height: 60,
+          width: 50,
+          height: 50,
           border: "none",
           padding: 7,
           marginBottom: 20,

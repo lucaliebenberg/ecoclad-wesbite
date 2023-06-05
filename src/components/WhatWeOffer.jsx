@@ -9,7 +9,7 @@ const WhatWeOffer = () => {
   return (
     <div
       id="WhatWeOffer"
-      className="w-full h-auto bg-white md:ml-[5rem] pb-5 md:mt-[6rem] overflow-x-hidden"
+      className="w-full h-auto bg-[#FCFCFC] md:ml-[5rem] pb-5 md:mt-[6rem] overflow-x-hidden"
       data-aos="fade-in"
     >
       <div className="flex flex-col pl-[3.3rem] pt-[5rem] pb-[3rem]">

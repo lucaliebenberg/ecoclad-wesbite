@@ -2,6 +2,7 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    background-color: transparent;
 }
 @tailwind components;
 @tailwind utilities;
