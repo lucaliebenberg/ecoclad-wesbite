@@ -82,7 +82,7 @@ const AboutUs = () => {
             <h2 className="text-[16px] md:text-[18px] text-black font-bold justify-center text-center mb-4">
               Professional Project Management
             </h2>
-            <p className="ml-auto mr-auto text-[12px] md:text-[14px] lg:text-[15px] md:text-left text-[#ABABAB] justify-center  max-w-[277px]">
+            <p className="ml-auto mr-auto text-[12px] md:text-[14px] lg:text-[15px] md:text-left text-[#ABABAB] justify-center  max-w-[277px] md:max-w-w">
               All projects and installations are professionally planned and
               managed according to industry codes and best practices. Clients
               are an integral part of the Design and Build process and we
@@ -147,7 +147,8 @@ const AboutUs = () => {
             workforce who are proud of their achievements and have an enviable
             reputation for quality and craftsmanship.
           </p>
-          <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-full mb-[2rem]">
+          <br />
+          <p className="w-full text-black text-[18px] max-w-[460px] md:max-w-full ">
             EcoClad is committed to providing high-value services and solutions
             to Clients based on:
           </p>
