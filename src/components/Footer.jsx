@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row md:justify-between">
         <div className="flex flex-col justify-start">
           <img src={Onesheet} alt="Ecoclad logo" width="180px" />
-          <h2 className="max-w-[80vw] md:max-w-[70%] font-semibold mt-5 mb-5">
+          <h2 className="text-[#818285] max-w-[80vw] md:max-w-[70%] font-semibold mt-5 mb-5">
             Want to resolve some questions you might have?
           </h2>
           <div className="">
