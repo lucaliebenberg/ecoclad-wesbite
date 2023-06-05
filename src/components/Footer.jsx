@@ -94,7 +94,7 @@ const Footer = () => {
             rel="noreferrer"
             className="text-[#CCC] font-semibold hover:text-[#DEE21B] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
-            <AiFillFacebook size={24} className="mr-3" />
+            <AiFillFacebook size={24} className="mr-[3rem]" />
           </a>
         </div>
       </div>

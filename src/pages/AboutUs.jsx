@@ -15,7 +15,7 @@ const AboutUs = () => {
         className="w-[100vw] mr-0 h-auto bg-white flex flex-col md:flex-row md:justify-between md:ml-[8rem] md:mb-[4rem]"
         data-aos="fade-in"
       >
-        <div className="flex flex-col mt-[5rem] pl-[3.3rem]">
+        <div className="flex flex-col mt-[5rem]">
           <h1 className="text-[48px] text-black font-semibold pb-4">
             About Us
           </h1>
@@ -42,7 +42,8 @@ const AboutUs = () => {
           </ul>
         </div>
 
-        <div className="pl-[3.3rem] mt-3 pr-0 mr-0 w-[50%] md:mt-[12rem]">
+        {/* image sizing needs to be looked at, forced sizing being used */}
+        <div className="pl-[3.3rem] mt-3 pr-0 mr-0 w-[50%] md:mt-[8rem]">
           <img
             src={AboutImg}
             alt=""
@@ -53,14 +54,14 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="flex flex-col mt-[4rem] pt-0 p-[5rem] h-full md:flex-row md:justify-between md:mt-[8rem] lg:mt-auto lg:mb-auto">
+      <div className="flex flex-col mt-[4rem] pt-0 p-[5rem] h-full md:flex-row md:justify-between md:mt-[6rem]">
         <div className="flex flex-col mr-2 md:mt-[5rem] lg:mt-14 xl:mr-0">
           <img
             src="https://i.ibb.co/gj9dz2X/ecoclad-favicon-logo.png"
             alt="Feature 1 icon"
-            className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
+            className="h-[32px] w-[32px] ml-auto mr-auto mb-10"
           />
-          <h2 className="text-[16px] md:text-[20px] text-[#56AC8B] font-bold justify-center text-center mb-4">
+          <h2 className="text-[16px] md:text-[18px] text-black font-bold justify-center text-center mb-4">
             EcoClad Materials Specifications
           </h2>
           <p className="ml-auto mr-auto text-[12px] md:text-[12px] md:text-left lg:text-[15px] text-[#ABABAB] justify-center text-center max-w-[277px]">
@@ -76,9 +77,9 @@ const AboutUs = () => {
             <img
               src="https://i.ibb.co/gj9dz2X/ecoclad-favicon-logo.png"
               alt="Feature 2 icon"
-              className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
+              className="h-[32px] w-[32px] ml-auto mr-auto mb-10"
             />
-            <h2 className="text-[16px] md:text-[20px] text-[#56AC8B] font-bold justify-center text-center mb-4">
+            <h2 className="text-[16px] md:text-[18px] text-black font-bold justify-center text-center mb-4">
               Professional Project Management
             </h2>
             <p className="ml-auto mr-auto text-[12px] md:text-[14px] lg:text-[15px] md:text-left text-[#ABABAB] justify-center  max-w-[277px]">
@@ -95,9 +96,9 @@ const AboutUs = () => {
             <img
               src="https://i.ibb.co/gj9dz2X/ecoclad-favicon-logo.png"
               alt="Feature 3 icon"
-              className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
+              className="h-[32px] w-[32px] ml-auto mr-auto mb-10"
             />
-            <h2 className="text-[16px] md:text-[20px] text-[#56AC8B] font-bold justify-center text-center mb-4">
+            <h2 className="text-[16px] md:text-[18px] text-black font-bold justify-center text-center mb-4">
               Long Term Service Excellence
             </h2>
             <p className="ml-auto mr-auto text-[12px] md:text-[14px] lg:text-[15px] md:text-left text-[#ABABAB] justify-center  max-w-[260px]">
