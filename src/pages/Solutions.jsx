@@ -305,7 +305,7 @@ const Solutions = () => {
                 <img
                   src={Household2}
                   alt="Ecoclad solutions image"
-                  className="rounded-[4px] h-auto"
+                  className="rounded-[4px] h-auto w-[91%]"
                 />
               </div>
             </div>
@@ -361,7 +361,7 @@ const Solutions = () => {
                 <img
                   src={Light3}
                   alt="Ecoclad solutions image"
-                  className="rounded-[4px] h-auto"
+                  className="rounded-[4px] h-auto w-[83%]"
                 />
               </div>
               <div className="mb-4 mt-8">
