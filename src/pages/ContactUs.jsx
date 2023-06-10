@@ -11,7 +11,7 @@ const ContactUs = () => {
     message: "",
   });
 
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const { target } = e;
@@ -28,15 +28,15 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "service_rqneimf",
-        "template_b2ockp9",
+        "service_t81iaza",
+        "template_19gvd5q",
         formRef.current,
-        "0MtfgrnWpLTNva33i"
+        "wJ_eg3F_5dW2PJfop"
       )
       .then(
         (result) => {
           console.log(result.text);
-          setLoading(false);
+          // setLoading(false);
           alert("Thank you. We will get back to you as soon as possible.");
 
           setForm({
@@ -46,7 +46,7 @@ const ContactUs = () => {
           });
         },
         (error) => {
-          setLoading(false);
+          // setLoading(false);
           console.log(error.text);
 
           alert("Ahh, something went wrong. Please try again.");
@@ -116,7 +116,8 @@ const ContactUs = () => {
                 value="Send"
                 className="bg-[tertiary] py-3 px-8 rounded-xl outline-none w-fit text-black font-medium shadow-md shadow-primary hover:bg-[#659F19] hover:text-white duration-300 ease-in-out transition-all"
               >
-                {loading ? "Sending..." : "Send"}
+                {/* {loading ? "Sending..." : "Send"} */}
+                Send
               </button>
             </form>
           </div>
