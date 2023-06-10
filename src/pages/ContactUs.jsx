@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar-white";
+import emailjs from "@emailjs/browser";
 
 const ContactUs = () => {
   const formRef = useRef();
@@ -10,7 +11,7 @@ const ContactUs = () => {
     message: "",
   });
 
-  // const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const { target } = e;
@@ -22,36 +23,36 @@ const ContactUs = () => {
     });
   };
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs
-  //     .sendForm(
-  //       "service_m3d6aih",
-  //       "template_qra90cs",
-  //       formRef.current,
-  //       "1MTBPSM2I49c_z_oI"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //         setLoading(false);
-  //         alert("Thank you. Luca will get back to you as soon as possible.");
+    emailjs
+      .sendForm(
+        "service_rqneimf",
+        "template_b2ockp9",
+        formRef.current,
+        "0MtfgrnWpLTNva33i"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setLoading(false);
+          alert("Thank you. We will get back to you as soon as possible.");
 
-  //         setForm({
-  //           name: "",
-  //           email: "",
-  //           message: "",
-  //         });
-  //       },
-  //       (error) => {
-  //         setLoading(false);
-  //         console.log(error.text);
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error.text);
 
-  //         alert("Ahh, something went wrong. Please try again.");
-  //       }
-  //     );
-  // };
+          alert("Ahh, something went wrong. Please try again.");
+        }
+      );
+  };
 
   return (
     <>
@@ -71,7 +72,7 @@ const ContactUs = () => {
           <div>
             <form
               ref={formRef}
-              // onSubmit={sendEmail}
+              onSubmit={sendEmail}
               className="w-[90%] mt-12 flex flex-col gap-8 p-4 bg-white shadow-md rounded-lg"
             >
               <label className="flex flex-col">
@@ -115,8 +116,7 @@ const ContactUs = () => {
                 value="Send"
                 className="bg-[tertiary] py-3 px-8 rounded-xl outline-none w-fit text-black font-medium shadow-md shadow-primary hover:bg-[#659F19] hover:text-white duration-300 ease-in-out transition-all"
               >
-                {/* {loading ? "Sending..." : "Send"} */}
-                Send
+                {loading ? "Sending..." : "Send"}
               </button>
             </form>
           </div>
